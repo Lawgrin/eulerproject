@@ -17,46 +17,115 @@ import java.util.Hashtable;
  */
 public class Question27 implements Question
 {
+    private String answer = "";
+    private int maxCount = 0;
     private Hashtable<Long, Boolean> isPrime = new Hashtable<>();
     private Hashtable<String, Integer> primeCount = new Hashtable<>();
-
-    private Path outPath = new File("C:\\Users\\Grant\\Desktop\\question27_out.txt").toPath();
 
     @Override
     public void doWork()
     {
-        for (int i = 0; i < 80 ; i++)
-        {
-            double finalResult = Math.pow(i,2) + (-79*i) + 1601;
+//        for (int i = 0; i < 80 ; i++)
+//        {
+//            double finalResult = Math.pow(i,2) + (-79*i) + 1601;
+//
+//            if (Utils.isPrime((long)finalResult))
+//            {
+//                System.out.println("i: "+i+" | "+finalResult);
+//            }
+//        }
 
-            if (Utils.isPrime((long)finalResult))
+        int a = -999;
+        int b = -1000;
+
+        while (a < 1000 || b <= 1000)
+        {
+            a = -999;
+            while (a < 1000)
             {
-                System.out.println("i: "+i+" | "+finalResult);
+                for (int i = 0; i <= Math.abs(a); i++)
+                {
+                    String key = String.valueOf(a)+"|"+String.valueOf(b);
+
+                    long finalResult = (long)(Math.pow(i,2) + (a*i) + b);
+
+                    Boolean finalResultIsPrime = false;
+
+                    if (this.isPrime.containsKey(finalResult))
+                    {
+                        finalResultIsPrime = this.isPrime.get(finalResult);
+                    }
+                    else if (Utils.isPrime(finalResult))
+                    {
+                        finalResultIsPrime = true;
+                        this.isPrime.put(finalResult, true);
+                    }
+
+                    if (finalResultIsPrime)
+                    {
+                        if (this.primeCount.containsKey(key))
+                        {
+                            Integer currCount = this.primeCount.get(key);
+                            currCount++;
+                            this.primeCount.put(key, currCount);
+                        }
+                        else
+                        {
+                            this.primeCount.put(key, 1);
+                        }
+                    }
+                    else
+                    {
+                        i = Math.abs(a)+1;
+                    }
+                }
+                a++;
+            }
+            b++;
+        }
+
+        for (String key : this.primeCount.keySet())
+        {
+            Integer count = this.primeCount.get(key);
+
+            if (count > this.maxCount)
+            {
+                this.answer = key;
+                this.maxCount = count;
             }
         }
+
+        System.out.println(this.maxCount);
+        System.out.println(this.answer);
     }
 
-    private void writeLine(String line)
+    private void checkPrime(long finalResult, String key)
     {
-//        System.out.println(line);
-        try
-        {
-            Files.write(outPath, line.getBytes(), StandardOpenOption.APPEND);
-            Files.write(outPath, ("\n").getBytes(), StandardOpenOption.APPEND);
-        }
-        catch (IOException e)
-        {
-            e.printStackTrace();
-        }
-    }
+        Boolean finalResultIsPrime = false;
 
-    private boolean checkPrime(long number)
-    {
-        if (!this.isPrime.containsKey(number))
+        if (this.isPrime.containsKey(finalResult))
         {
-            this.isPrime.put(number, Utils.isPrime(number));
+            finalResultIsPrime = this.isPrime.get(finalResult);
         }
-        return this.isPrime.get(number);
+        else if (Utils.isPrime(finalResult))
+        {
+            finalResultIsPrime = true;
+            this.isPrime.put(finalResult, true);
+        }
+
+        if (finalResultIsPrime)
+        {
+            if (this.primeCount.containsKey(key))
+            {
+                Integer currCount = this.primeCount.get(key);
+                currCount++;
+                this.primeCount.put(key, currCount);
+            }
+            else
+            {
+                this.primeCount.put(key, 1);
+            }
+        }
     }
 
     @Override
@@ -66,7 +135,12 @@ public class Question27 implements Question
         System.out.println("Question 27");
 //        System.out.println("=================================");
 //        System.out.println(this.correctPaths);
-        System.out.println("The 1/d with the longest recurring cycle, is: ");
+        String[] coeff = this.answer.split("\\|");
+
+        int i_1 = Integer.valueOf(coeff[0]);
+        int i_2 = Integer.valueOf(coeff[1]);
+
+        System.out.println("The product of the coefficients, a and b, is: "+(i_1*i_2));
         System.out.println("=================================");
     }
 }
