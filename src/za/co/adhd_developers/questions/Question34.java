@@ -78,7 +78,7 @@ public class Question34 implements Question
     public void printAnswer()
     {
         System.out.println("=================================");
-        System.out.println("Question 33");
+        System.out.println("Question 34");
         System.out.println("The sum of all numbers which are equal to the sum of the factorial of their digits, is: " + this.answer);
         System.out.println("=================================");
     }

@@ -2,10 +2,7 @@ package za.co.adhd_developers.questions;
 
 import za.co.adhd_developers.tools.Question;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
 
 /**
  * Created by Grant on 2017/08/01.
@@ -16,7 +13,6 @@ public class Question24 implements Question
 
     int limit = 1000000;
 
-    ArrayList<String> permutations = new ArrayList<>();
 
     //http://www.geeksforgeeks.org/lexicographic-permutations-of-string/
     private String generateNextPermutations(String previousPerm)

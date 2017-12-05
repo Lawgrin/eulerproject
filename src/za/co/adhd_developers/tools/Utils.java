@@ -4,9 +4,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Hashtable;
+import java.util.*;
 
 /**
  * Created by Grant on 2017/07/28.
@@ -111,6 +109,86 @@ public class Utils
         }
 
         return result;
+    }
+
+    public static ArrayList<String> getAllCyclicallyRotations(String text)
+    {
+        String holdText = text;
+        ArrayList<String> returningData = new ArrayList<>();
+
+        for (int i = 0; i < text.length(); i++)
+        {
+            ArrayList<String> hold = new ArrayList<>();
+
+            Collections.addAll(hold, holdText.split("|"));
+
+            String tmpStr = hold.get(0);
+
+            hold.remove(0);
+
+            hold.add(tmpStr);
+
+            holdText = String.join("",hold);
+            returningData.add(holdText);
+        }
+
+        return returningData;
+    }
+
+    public static boolean isPandigital(String number, int endPoint)
+    {
+        if (number.length() != endPoint)
+        {
+            return false;
+        }
+
+        Hashtable<String, Boolean> checkList = new Hashtable<>();
+
+        for (int i = 1; i <= endPoint; i++)
+        {
+            checkList.put(String.valueOf(i), false);
+        }
+
+        for (String digit : number.split("|"))
+        {
+            if (!checkList.containsKey(digit))
+            {
+                return false;
+            }
+
+            if (!checkList.get(digit))
+            {
+                checkList.put(digit, true);
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public static void permutation(String str)
+    {
+        permutation("", str);
+    }
+
+    //https://stackoverflow.com/questions/4240080/generating-all-permutations-of-a-given-string
+    private static void permutation(String prefix, String str)
+    {
+        int n = str.length();
+        if (n == 0)
+        {
+            System.out.println(prefix);
+        }
+        else
+        {
+            for (int i = 0; i < n; i++)
+            {
+                permutation(prefix + str.charAt(i), str.substring(0, i) + str.substring(i + 1, n));
+            }
+        }
     }
 
 //    public static Hashtable<String, Object> getOutData(Object obj) throws IllegalAccessException, NoSuchMethodException, InvocationTargetException
