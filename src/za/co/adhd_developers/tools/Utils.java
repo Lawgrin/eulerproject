@@ -169,24 +169,24 @@ public class Utils
         return true;
     }
 
-    public static void permutation(String str)
+    public static void permutation(String str, List<String> permutations)
     {
-        permutation("", str);
+        permutation("", str, permutations);
     }
 
     //https://stackoverflow.com/questions/4240080/generating-all-permutations-of-a-given-string
-    private static void permutation(String prefix, String str)
+    private static void permutation(String prefix, String str, List<String> permutations)
     {
         int n = str.length();
         if (n == 0)
         {
-            System.out.println(prefix);
+            permutations.add(prefix);
         }
         else
         {
             for (int i = 0; i < n; i++)
             {
-                permutation(prefix + str.charAt(i), str.substring(0, i) + str.substring(i + 1, n));
+                permutation(prefix + str.charAt(i), str.substring(0, i) + str.substring(i + 1, n), permutations);
             }
         }
     }
