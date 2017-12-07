@@ -1,8 +1,5 @@
 package za.co.adhd_developers.tools;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.math.BigInteger;
 import java.util.*;
 
@@ -65,6 +62,23 @@ public class Utils
             factor++;
         }
         return true;
+    }
+
+    public static long getNextPrime(long currPrime)
+    {
+        long newPrime = 0;
+
+        while (newPrime == 0)
+        {
+            currPrime++;
+
+            if (isPrime(currPrime))
+            {
+                newPrime = currPrime;
+            }
+        }
+
+        return newPrime;
     }
 
     public static boolean isPalindromic(String phrase)
@@ -135,16 +149,216 @@ public class Utils
         return returningData;
     }
 
+    public static Boolean isTriangleWord(String word)
+    {
+        Hashtable<String, Integer> alphaToNumeric = new Hashtable<>();
+        alphaToNumeric.put("a",1);
+        alphaToNumeric.put("b",2);
+        alphaToNumeric.put("c",3);
+        alphaToNumeric.put("d",4);
+        alphaToNumeric.put("e",5);
+        alphaToNumeric.put("f",6);
+        alphaToNumeric.put("g",7);
+        alphaToNumeric.put("h",8);
+        alphaToNumeric.put("i",9);
+        alphaToNumeric.put("j",10);
+        alphaToNumeric.put("k",11);
+        alphaToNumeric.put("l",12);
+        alphaToNumeric.put("m",13);
+        alphaToNumeric.put("n",14);
+        alphaToNumeric.put("o",15);
+        alphaToNumeric.put("p",16);
+        alphaToNumeric.put("q",17);
+        alphaToNumeric.put("r",18);
+        alphaToNumeric.put("s",19);
+        alphaToNumeric.put("t",20);
+        alphaToNumeric.put("u",21);
+        alphaToNumeric.put("v",22);
+        alphaToNumeric.put("w",23);
+        alphaToNumeric.put("x",24);
+        alphaToNumeric.put("y",25);
+        alphaToNumeric.put("z",26);
+
+        int runninTotal = 0;
+
+        for (int i = 0; i < word.length(); i++)
+        {
+            String letter = String.valueOf(word.charAt(i)).toLowerCase();
+            if (alphaToNumeric.containsKey(letter))
+            {
+                runninTotal += alphaToNumeric.get(letter);
+            }
+            else
+            {
+                System.out.println("isTriangleWord - letter missing from list:\""+letter+"\"");
+            }
+        }
+
+        double wordTotal = (double)runninTotal;
+        double triangleNumber = 0;
+        int index = 1;
+
+        while (triangleNumber < wordTotal)
+        {
+            triangleNumber = 0.5 * index * (index + 1);
+            index++;
+        }
+
+        if (triangleNumber != wordTotal)
+        {
+            return false;
+        }
+
+        return true;
+
+    }
+
+    public static double getTriangleNumber(double number)
+    {
+        return 0.5 * number * (number + 1);
+    }
+
+    public static double getTriangleOrigin(double number)
+    {
+        double a = 0.5*10;
+        double b = 0.5*10;
+        double c = 0-(number*10);
+
+        double underSqrt = Math.pow(b, 2) + (-4 * (a * c));
+
+        double underDivide = 2*a;
+
+        double sqrt = Math.sqrt(underSqrt);
+
+        double aboveDivide = (b*-1) + sqrt;
+
+        return aboveDivide / underDivide;
+    }
+
+    public static boolean isTriangle(double number)
+    {
+        double ans = getTriangleOrigin(number);
+
+        if (Double.isNaN(ans))
+        {
+            return false;
+        }
+
+        if (ans != Math.floor(ans))
+        {
+            return false;
+        }
+
+        return true;
+    }
+
+    public static double getPentagonal(double number)
+    {
+        return getPentagonal(0, number);
+    }
+
+    public static double getPentagonal(double beginPoint, double jumps)
+    {
+        double endPoint = beginPoint+jumps;
+
+        double begin = ((3*(beginPoint*beginPoint)) - beginPoint) / 2;
+
+        double sec1 = (4 * (endPoint - beginPoint));
+
+        double sec2 = (Utils.getTriangleNumber(endPoint-2) - Utils.getTriangleNumber(beginPoint-2)) * 3;
+
+        return begin + sec1 + sec2;
+    }
+
+    public static double getPentagonalOrigin(double number)
+    {
+        double a = 1.5*10;
+        double b = -0.5*10;
+        double c = 0-(number*10);
+
+        double underSqrt = Math.pow(b, 2) + (-4 * (a * c));
+
+        double underDivide = 2*a;
+
+        double sqrt = Math.sqrt(underSqrt);
+
+        double aboveDivide = (b*-1) + sqrt;
+
+        return aboveDivide / underDivide;
+    }
+
+    public static boolean isPentagonal(double number)
+    {
+        double ans = getPentagonalOrigin(number);
+
+        if (Double.isNaN(ans))
+        {
+            return false;
+        }
+
+        if (ans != Math.floor(ans))
+        {
+            return false;
+        }
+
+        return true;
+    }
+
+    public static double getHexagonalNumber(double number)
+    {
+        return number * ((2 * number) - 1);
+    }
+
+    public static double getHexagonalOrigin(int number)
+    {
+        double a = 2;
+        double b = -1;
+        double c = 0-(number);
+
+        double underSqrt = Math.pow(b, 2) + (-4 * (a * c));
+
+        double underDivide = 2*a;
+
+        double sqrt = Math.sqrt(underSqrt);
+
+        double aboveDivide = (b*-1) + sqrt;
+
+        return aboveDivide / underDivide;
+    }
+
+    public static boolean isHexagonal(int number)
+    {
+        double ans = getHexagonalOrigin(number);
+
+        if (Double.isNaN(ans))
+        {
+            return false;
+        }
+
+        if (ans != Math.floor(ans))
+        {
+            return false;
+        }
+
+        return true;
+    }
+
     public static boolean isPandigital(String number, int endPoint)
     {
-        if (number.length() != endPoint)
+        return isPandigital(number, 1, endPoint);
+    }
+
+    public static boolean isPandigital(String number, int startPoint, int endPoint)
+    {
+        int reqLength = ((endPoint + 1) - startPoint);
+        if (number.length() != reqLength)
         {
             return false;
         }
 
         Hashtable<String, Boolean> checkList = new Hashtable<>();
 
-        for (int i = 1; i <= endPoint; i++)
+        for (int i = startPoint; i <= endPoint; i++)
         {
             checkList.put(String.valueOf(i), false);
         }
@@ -166,7 +380,16 @@ public class Utils
             }
         }
 
-        return true;
+        int checkCount = 0;
+        for (String key : checkList.keySet())
+        {
+            if (checkList.get(key))
+            {
+                checkCount++;
+            }
+        }
+
+        return checkCount == number.length();
     }
 
     public static void permutation(String str, List<String> permutations)
@@ -189,6 +412,38 @@ public class Utils
                 permutation(prefix + str.charAt(i), str.substring(0, i) + str.substring(i + 1, n), permutations);
             }
         }
+    }
+
+    public static boolean hasSubStringDivisibility(String number)
+    {
+        if (!number.matches("\\d{10}"))
+        {
+            return false;
+        }
+
+        Hashtable<Integer, Integer> checks = new Hashtable<>();
+        checks.put(1,2);
+        checks.put(2,3);
+        checks.put(3,5);
+        checks.put(4,7);
+        checks.put(5,11);
+        checks.put(6,13);
+        checks.put(7,17);
+
+        boolean works = true;
+        for (int i = 1; i <= number.length()-3; i++)
+        {
+            int newNumb = Integer.valueOf(number.substring(i,i+3));
+
+            int comp = checks.get(i);
+            if (newNumb % comp != 0)
+            {
+                works = false;
+                break;
+            }
+        }
+
+        return works;
     }
 
 //    public static Hashtable<String, Object> getOutData(Object obj) throws IllegalAccessException, NoSuchMethodException, InvocationTargetException
