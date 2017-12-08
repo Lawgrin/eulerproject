@@ -1,5 +1,6 @@
 package za.co.adhd_developers.tools;
 
+import java.lang.reflect.Array;
 import java.math.BigInteger;
 import java.util.*;
 
@@ -409,9 +410,6 @@ public class Utils
         {
             for (int i = 0; i < n; i++)
             {
-                //0 - a
-                //1 - b
-                //2 - c
                 permutation(prefix + str.charAt(i), str.substring(0, i) + str.substring(i + 1, n), permutations);
             }
         }
@@ -462,6 +460,64 @@ public class Utils
         }
 
         return works;
+    }
+
+    public static <T> T[] castArrayToList(ArrayList<T> list)
+    {
+        if (list.size() <= 0)
+        {
+            return null;
+        }
+
+        T[] newList = (T[]) Array.newInstance(list.get(0).getClass(), list.size());
+
+        newList = list.toArray(newList);
+
+        return newList;
+    }
+
+    public static boolean containsDuplicateChars(String data)
+    {
+        for (int i = 0; i < data.length(); i++)
+        {
+            for (int j = 0; j < data.length(); j++)
+            {
+                if (i==j)
+                {
+                    continue;
+                }
+
+                if (data.charAt(i) == data.charAt(j))
+                {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    public static boolean containsSameCharsInDiffOrder(String data1, String data2)
+    {
+        if (data1.length() != data2.length())
+        {
+            return false;
+        }
+        if (data1.equalsIgnoreCase(data2))
+        {
+            return false;
+        }
+
+        for (int i = 0; i < data1.length(); i++)
+        {
+            String charr = String.valueOf(data1.charAt(i));
+            if (!data2.contains(charr))
+            {
+                return false;
+            }
+        }
+
+        return true;
     }
 
 //    public static Hashtable<String, Object> getOutData(Object obj) throws IllegalAccessException, NoSuchMethodException, InvocationTargetException
