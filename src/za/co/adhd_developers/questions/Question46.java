@@ -67,7 +67,7 @@ public class Question46 implements Question
     public void printAnswer()
     {
         System.out.println("=================================");
-        System.out.println("Question 45");
+        System.out.println("Question 46");
         System.out.println("The smallest odd composite that cannot be written as the sum of a prime and twice a square, is: "+this.answer);
         System.out.println("=================================");
     }

@@ -409,9 +409,27 @@ public class Utils
         {
             for (int i = 0; i < n; i++)
             {
+                //0 - a
+                //1 - b
+                //2 - c
                 permutation(prefix + str.charAt(i), str.substring(0, i) + str.substring(i + 1, n), permutations);
             }
         }
+    }
+
+    public static <T> List<List<T>> newPermutaion(List<T> libArray, List<T> currArray, int length)
+    {
+        if (currArray.size() == length)
+        {
+            List<List<T>> retArray = new ArrayList<>();
+            retArray.add(currArray);
+            return retArray;
+        }
+        else
+        {
+
+        }
+        return new ArrayList<>();
     }
 
     public static boolean hasSubStringDivisibility(String number)
