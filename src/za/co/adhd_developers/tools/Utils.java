@@ -517,6 +517,15 @@ public class Utils
             }
         }
 
+        for (int i = 0; i < data2.length(); i++)
+        {
+            String charr = String.valueOf(data2.charAt(i));
+            if (!data1.contains(charr))
+            {
+                return false;
+            }
+        }
+
         return true;
     }
 

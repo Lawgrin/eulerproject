@@ -8,13 +8,10 @@ import java.util.*;
 
 public class Question49 implements Question
 {
+    private String answer = "";
     @Override
     public void doWork()
     {
-        wayOne();
-        wayTwo();
-        wayThree();
-        wayFour();
         wayFive();
     }
 
@@ -22,11 +19,6 @@ public class Question49 implements Question
     {
         for (int currNumber = 1000; currNumber < 10000; currNumber++)
         {
-            if (Utils.containsDuplicateChars(String.valueOf(currNumber)))
-            {
-                continue;
-            }
-
             if (!Utils.isPrime(currNumber))
             {
                 continue;
@@ -40,17 +32,10 @@ public class Question49 implements Question
                 {
                     continue;
                 }
-
-                if (Utils.containsDuplicateChars(String.valueOf(secondNumber)))
-                {
-                    continue;
-                }
-
                 if (!Utils.containsSameCharsInDiffOrder(String.valueOf(currNumber), String.valueOf(secondNumber)))
                 {
                     continue;
                 }
-
                 if (!Utils.isPrime(secondNumber))
                 {
                     continue;
@@ -62,28 +47,20 @@ public class Question49 implements Question
                 {
                     continue;
                 }
-
-                if (Utils.containsDuplicateChars(String.valueOf(lastNumber)))
-                {
-                    continue;
-                }
-
                 if (!Utils.containsSameCharsInDiffOrder(String.valueOf(currNumber), String.valueOf(lastNumber)))
                 {
                     continue;
                 }
-
                 if (!Utils.containsSameCharsInDiffOrder(String.valueOf(secondNumber), String.valueOf(lastNumber)))
                 {
                     continue;
                 }
-
                 if (!Utils.isPrime(lastNumber))
                 {
                     continue;
                 }
 
-                System.out.println(currNumber + "|" + secondNumber + "|" + lastNumber + " - " + diff);
+                this.answer = String.valueOf(currNumber) + String.valueOf(secondNumber) + String.valueOf(lastNumber);
             }
         }
     }
@@ -424,6 +401,9 @@ public class Question49 implements Question
     @Override
     public void printAnswer()
     {
-        System.out.println("=====DONE=====");
+        System.out.println("=================================");
+        System.out.println("Question 49");
+        System.out.println("The 12-digit number do you form by concatenating the three terms in this sequence, is: " + this.answer);
+        System.out.println("=================================");
     }
 }
