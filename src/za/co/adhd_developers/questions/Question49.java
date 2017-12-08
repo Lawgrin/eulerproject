@@ -11,33 +11,32 @@ public class Question49 implements Question
     @Override
     public void doWork()
     {
-
+        wayOne();
+        wayTwo();
+        wayThree();
+        wayFour();
+        wayFive();
     }
 
     private void wayFive()
     {
         for (int currNumber = 1000; currNumber < 10000; currNumber++)
         {
-            if (!Utils.isPrime(currNumber))
-            {
-                continue;
-            }
-
             if (Utils.containsDuplicateChars(String.valueOf(currNumber)))
             {
                 continue;
             }
 
-            for (int diff = 1; diff < 10000 - currNumber; diff++)
+            if (!Utils.isPrime(currNumber))
+            {
+                continue;
+            }
+
+            for (int diff = 0; diff < 10000; diff++)
             {
                 int secondNumber = currNumber + diff;
 
                 if (secondNumber > 9999)
-                {
-                    continue;
-                }
-
-                if (!Utils.isPrime(secondNumber))
                 {
                     continue;
                 }
@@ -52,14 +51,14 @@ public class Question49 implements Question
                     continue;
                 }
 
-                int lastNumber = secondNumber + diff;
-
-                if (lastNumber > 9999)
+                if (!Utils.isPrime(secondNumber))
                 {
                     continue;
                 }
 
-                if (!Utils.isPrime(lastNumber))
+                int lastNumber = secondNumber + diff;
+
+                if (lastNumber > 9999)
                 {
                     continue;
                 }
@@ -79,7 +78,12 @@ public class Question49 implements Question
                     continue;
                 }
 
-                System.out.println(currNumber + " - " + secondNumber+ " - " + lastNumber + "||"+ diff);
+                if (!Utils.isPrime(lastNumber))
+                {
+                    continue;
+                }
+
+                System.out.println(currNumber + "|" + secondNumber + "|" + lastNumber + " - " + diff);
             }
         }
     }
@@ -88,21 +92,18 @@ public class Question49 implements Question
     {
         for (int firstNumber = 1000; firstNumber < 10000; firstNumber++)
         {
-            if (!Utils.isPrime(firstNumber))
+            if (Utils.containsDuplicateChars(String.valueOf(firstNumber)))
             {
                 continue;
             }
-            if (Utils.containsDuplicateChars(String.valueOf(firstNumber)))
+
+            if (!Utils.isPrime(firstNumber))
             {
                 continue;
             }
 
             for (int secondNumber = firstNumber+1; secondNumber < 10000; secondNumber++)
             {
-                if (!Utils.isPrime(secondNumber))
-                {
-                    continue;
-                }
                 if (Utils.containsDuplicateChars(String.valueOf(secondNumber)))
                 {
                     continue;
@@ -111,13 +112,13 @@ public class Question49 implements Question
                 {
                     continue;
                 }
+                if (!Utils.isPrime(secondNumber))
+                {
+                    continue;
+                }
 
                 for (int lastNumber = secondNumber+1; lastNumber < 10000; lastNumber++)
                 {
-                    if (!Utils.isPrime(lastNumber))
-                    {
-                        continue;
-                    }
                     if (Utils.containsDuplicateChars(String.valueOf(lastNumber)))
                     {
                         continue;
@@ -130,12 +131,16 @@ public class Question49 implements Question
                     {
                         continue;
                     }
+                    if (!Utils.isPrime(lastNumber))
+                    {
+                        continue;
+                    }
 
                     int fsDiff = secondNumber - firstNumber;
                     int slDiff = lastNumber - secondNumber;
                     if (fsDiff == slDiff)
                     {
-                        System.out.println(firstNumber + " - " + secondNumber+ " - " + lastNumber + "||"+ fsDiff+ " - " + slDiff);
+                        System.out.println(firstNumber + "|" + secondNumber + "|" + lastNumber + " - " + fsDiff + "|" + slDiff);
                     }
                 }
             }
@@ -146,14 +151,26 @@ public class Question49 implements Question
     {
         for (int currNum = 1000; currNum < 10000; currNum++)
         {
-            if (!Utils.isPrime(currNum) || Utils.containsDuplicateChars(String.valueOf(currNum)))
+            if (Utils.containsDuplicateChars(String.valueOf(currNum)))
+            {
+                continue;
+            }
+            if (!Utils.isPrime(currNum))
             {
                 continue;
             }
 
             for (int compareTo = currNum+1; compareTo < 10000; compareTo++)
             {
-                if (!Utils.isPrime(compareTo) || Utils.containsDuplicateChars(String.valueOf(compareTo)) || !Utils.containsSameCharsInDiffOrder(String.valueOf(currNum), String.valueOf(compareTo)))
+                if (Utils.containsDuplicateChars(String.valueOf(compareTo)))
+                {
+                    continue;
+                }
+                if (!Utils.containsSameCharsInDiffOrder(String.valueOf(currNum), String.valueOf(compareTo)))
+                {
+                    continue;
+                }
+                if (!Utils.isPrime(compareTo))
                 {
                     continue;
                 }
@@ -166,22 +183,24 @@ public class Question49 implements Question
                     continue;
                 }
 
+                if (Utils.containsDuplicateChars(String.valueOf(nextNumber)))
+                {
+                    continue;
+                }
+                if (!Utils.containsSameCharsInDiffOrder(String.valueOf(currNum), String.valueOf(nextNumber)))
+                {
+                    continue;
+                }
+                if (!Utils.containsSameCharsInDiffOrder(String.valueOf(compareTo), String.valueOf(nextNumber)))
+                {
+                    continue;
+                }
                 if (!Utils.isPrime(nextNumber))
                 {
                     continue;
                 }
 
-                if (Utils.containsDuplicateChars(String.valueOf(nextNumber)))
-                {
-                    continue;
-                }
-
-                if (!Utils.containsSameCharsInDiffOrder(String.valueOf(currNum), String.valueOf(nextNumber)))
-                {
-                    continue;
-                }
-
-                System.out.println(currNum+"|"+compareTo+"|"+nextNumber);
+                System.out.println(currNum + "|" + compareTo + "|" + nextNumber + " - " + diff);
             }
         }
     }
