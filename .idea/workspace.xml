@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fe2bf7b-bf8c-45c0-9b32-459b16137687" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question0.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question49.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/tools/PermUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/eulerproject/za/co/adhd_developers/Root.class" afterPath="$PROJECT_DIR$/out/production/eulerproject/za/co/adhd_developers/Root.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/eulerproject/za/co/adhd_developers/tools/Utils.class" afterPath="$PROJECT_DIR$/out/production/eulerproject/za/co/adhd_developers/tools/Utils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/tools/Utils.java" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/tools/Utils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question48.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="215">
-              <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+              <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -892,7 +886,7 @@
     <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question48.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
