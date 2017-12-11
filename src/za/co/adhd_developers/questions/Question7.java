@@ -21,7 +21,7 @@ public class Question7 implements Question
         {
             if (currNumber == 2 || currNumber % 2 != 0)
             {
-                if (Utils.isPrime(currNumber))
+                if (Utils.newIsPrime(currNumber))
                 {
                     count++;
                 }

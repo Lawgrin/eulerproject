@@ -2,7 +2,10 @@ package za.co.adhd_developers.tools;
 
 import java.lang.reflect.Array;
 import java.math.BigInteger;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Hashtable;
+import java.util.List;
 
 /**
  * Created by Grant on 2017/07/28.
@@ -31,9 +34,28 @@ public class Utils
         return factors;
     }
 
+    //https://codereview.stackexchange.com/questions/24704/efficiently-determining-if-a-number-is-prime
+    public static boolean newIsPrime(long number)
+    {
+        if (number > 2 &&  number % 2 == 0)
+        {
+            return false;
+        }
+
+        int top = (int)Math.sqrt(number)+1;
+        for (int i = 3; i < top; i+=2)
+        {
+            if (number % i == 0)
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
     public static boolean isPrime(long number)
     {
-        Date start = new Date();
         if (number < 2)
         {
             return false;
@@ -73,7 +95,7 @@ public class Utils
         {
             currPrime++;
 
-            if (isPrime(currPrime))
+            if (newIsPrime(currPrime))
             {
                 newPrime = currPrime;
             }
