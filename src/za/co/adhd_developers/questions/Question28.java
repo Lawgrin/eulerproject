@@ -69,6 +69,5 @@ public class Question28 implements Question
         System.out.println("Question 28");
         System.out.println("The sum of the numbers on the diagonals in a 1001 by 1001 spiral, is: "+this.answer);
         System.out.println("=================================");
-
     }
 }

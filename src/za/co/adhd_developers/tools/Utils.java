@@ -132,6 +132,18 @@ public class Utils
             return number.multiply(tmp);
         }
     }
+    public static Long getSmallFactorial(Long number)
+    {
+        if (number.compareTo(1L) <= 0)
+        {
+            return 1L;
+        }
+        else
+        {
+            Long tmp = getSmallFactorial(number-1);
+            return number * tmp;
+        }
+    }
 
     public static long sumTheNumber(String number)
     {
@@ -549,6 +561,18 @@ public class Utils
         }
 
         return true;
+    }
+
+    public static String reverse(String phrase)
+    {
+        String tmpPhrase = "";
+
+        for (int i = 0; i < phrase.length(); i++)
+        {
+            tmpPhrase = phrase.substring(i,i+1) + tmpPhrase;
+        }
+
+        return tmpPhrase;
     }
 
 //    public static Hashtable<String, Object> getOutData(Object obj) throws IllegalAccessException, NoSuchMethodException, InvocationTargetException

@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fe2bf7b-bf8c-45c0-9b32-459b16137687" name="Default" comment="" />
+    <list default="true" id="0fe2bf7b-bf8c-45c0-9b32-459b16137687" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/externalResources/Question54_Cards.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question51.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question52.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question53.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question54.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question55.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question56.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question57.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question58.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/Root.java" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/Root.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question0.java" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question0.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question28.java" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question28.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/tools/Utils.java" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/tools/Utils.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +31,8 @@
       <file leaf-file-name="Root.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/Root.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="225">
+              <caret line="19" column="86" lean-forward="false" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,50 +43,9 @@
       <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/tools/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="36" column="103" lean-forward="false" selection-start-line="36" selection-start-column="103" selection-end-line="36" selection-end-column="103" />
-              <folding>
-                <element signature="e#5800#5801#0" expanded="true" />
-                <element signature="e#5850#5851#0" expanded="true" />
-                <element signature="e#6595#6596#0" expanded="true" />
-                <element signature="e#6642#6643#0" expanded="true" />
-                <element signature="e#7797#7798#0" expanded="true" />
-                <element signature="e#7847#7848#0" expanded="true" />
-                <element signature="e#8591#8592#0" expanded="true" />
-                <element signature="e#8647#8648#0" expanded="true" />
-                <element signature="e#9758#9759#0" expanded="true" />
-                <element signature="e#9808#9809#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Question49.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question49.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="402" column="5" lean-forward="false" selection-start-line="402" selection-start-column="5" selection-end-line="406" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="method#wayFour#0;class#Question49#0" expanded="false" />
-                <element signature="method#wayThree#0;class#Question49#0" expanded="false" />
-                <element signature="method#wayTwo#0;class#Question49#0" expanded="false" />
-                <element signature="method#wayOne#0;class#Question49#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Question50.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question50.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="94" column="99" lean-forward="false" selection-start-line="94" selection-start-column="99" selection-end-line="94" selection-end-column="99" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="290">
+              <caret line="568" column="0" lean-forward="false" selection-start-line="568" selection-start-column="0" selection-end-line="568" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,8 +53,18 @@
       <file leaf-file-name="Question0.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question0.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="60">
+              <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Question58.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question58.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,6 +97,12 @@
       <find>isprim</find>
       <find>1487</find>
       <find>953</find>
+      <find>- 6</find>
+      <find>??</find>
+      <find>- 7</find>
+      <find>printa</find>
+      <find>rever</find>
+      <find>pa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,7 +118,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question26.java" />
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question27.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question28.java" />
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question29.java" />
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question30.java" />
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question31.java" />
@@ -151,11 +141,21 @@
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question48.java" />
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/tools/PermUtil.java" />
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question49.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question0.java" />
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question7.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/Root.java" />
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question50.java" />
+        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question51.java" />
+        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question52.java" />
+        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question53.java" />
+        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question54.java" />
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/tools/Utils.java" />
+        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question55.java" />
+        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question56.java" />
+        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question0.java" />
+        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question57.java" />
+        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Qustion58.java" />
+        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/Root.java" />
+        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question28.java" />
+        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question58.java" />
       </list>
     </option>
   </component>
@@ -179,7 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,7 +222,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -232,9 +232,12 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="SearchEverywhereHistoryKey" value="ques&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/questions/Question7.java&#10;ques7&#9;PSI&#9;JAVA://za.co.adhd_developers.questions.Question7&#10;Ut&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/tools/Utils.java&#10;ut&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/tools/Utils.java" />
+    <property name="SearchEverywhereHistoryKey" value="Question28&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/questions/Question28.java&#10;P&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/tools/PermUtil.java&#10;Question42&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/questions/Question42.java&#10;ques&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/questions/Question7.java&#10;ques7&#9;PSI&#9;JAVA://za.co.adhd_developers.questions.Question7&#10;Ut&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/tools/Utils.java&#10;ut&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/tools/Utils.java" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/externalResources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/externalResources" />
     </key>
@@ -442,21 +445,21 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842416" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.50277776" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842416" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.269514" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3976436" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842416" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -477,7 +480,7 @@
           <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="75" />
+      <option name="time" value="86" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -486,87 +489,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eulerproject.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/regex/Pattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="1337" column="12" lean-forward="false" selection-start-line="1337" selection-start-column="12" selection-end-line="1337" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/regex/MatchResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="787">
-          <caret line="185" column="15" lean-forward="false" selection-start-line="185" selection-start-column="15" selection-end-line="185" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1699">
-          <caret line="136" column="11" lean-forward="false" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
-          <folding>
-            <element signature="e#4677#4678#0" expanded="false" />
-            <element signature="e#4714#4715#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/math/BigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="1555" column="22" lean-forward="false" selection-start-line="1555" selection-start-column="22" selection-end-line="1555" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/tools/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question30.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="41" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question20.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question31.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="60" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question25.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question33.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -604,6 +526,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="237" column="12" lean-forward="false" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="5397" column="30" lean-forward="false" selection-start-line="5397" selection-start-column="30" selection-end-line="5397" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,14 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question28.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="68" column="39" lean-forward="false" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question21.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-93">
@@ -725,6 +639,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="1671" column="29" lean-forward="true" selection-start-line="1671" selection-start-column="29" selection-end-line="1671" selection-end-column="29" />
+          <folding>
+            <element signature="e#64310#64311#0" expanded="false" />
+            <element signature="e#64355#64356#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -743,13 +661,6 @@
         <state relative-caret-position="291">
           <caret line="110" column="39" lean-forward="false" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="62" column="38" lean-forward="false" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -793,16 +704,6 @@
         <state relative-caret-position="302">
           <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question42.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="60" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,31 +757,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/tools/PermUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
-          <folding>
-            <element signature="e#271#272#0" expanded="false" />
-            <element signature="e#307#308#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question48.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="32" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question0.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -897,53 +777,179 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question49.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="402" column="5" lean-forward="false" selection-start-line="402" selection-start-column="5" selection-end-line="406" selection-end-column="64" />
+        <state relative-caret-position="137">
+          <caret line="316" column="49" lean-forward="true" selection-start-line="316" selection-start-column="12" selection-end-line="316" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
             <element signature="method#wayFour#0;class#Question49#0" expanded="false" />
             <element signature="method#wayThree#0;class#Question49#0" expanded="false" />
             <element signature="method#wayTwo#0;class#Question49#0" expanded="false" />
-            <element signature="method#wayOne#0;class#Question49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/tools/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="36" column="103" lean-forward="false" selection-start-line="36" selection-start-column="103" selection-end-line="36" selection-end-column="103" />
-          <folding>
-            <element signature="e#5800#5801#0" expanded="true" />
-            <element signature="e#5850#5851#0" expanded="true" />
-            <element signature="e#6595#6596#0" expanded="true" />
-            <element signature="e#6642#6643#0" expanded="true" />
-            <element signature="e#7797#7798#0" expanded="true" />
-            <element signature="e#7847#7848#0" expanded="true" />
-            <element signature="e#8591#8592#0" expanded="true" />
-            <element signature="e#8647#8648#0" expanded="true" />
-            <element signature="e#9758#9759#0" expanded="true" />
-            <element signature="e#9808#9809#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/Root.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question50.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="94" column="99" lean-forward="false" selection-start-line="94" selection-start-column="99" selection-end-line="94" selection-end-column="99" />
+        <state relative-caret-position="-11">
+          <caret line="76" column="36" lean-forward="true" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question51.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="284" column="5" lean-forward="true" selection-start-line="284" selection-start-column="5" selection-end-line="288" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/externalResources/Question54_Cards.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question42.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="44" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="1243" column="32" lean-forward="false" selection-start-line="1243" selection-start-column="30" selection-end-line="1243" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="false" />
+            <element signature="e#10148#10149#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question52.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="90" column="5" lean-forward="false" selection-start-line="90" selection-start-column="5" selection-end-line="94" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/tools/PermUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question53.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="42" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question55.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="47" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question54.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="56" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/tools/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="568" column="0" lean-forward="false" selection-start-line="568" selection-start-column="0" selection-end-line="568" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question56.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="47" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question57.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/Root.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="86" lean-forward="false" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question28.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="70" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/questions/Question58.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
