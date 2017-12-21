@@ -37,6 +37,10 @@ public class Utils
     //https://codereview.stackexchange.com/questions/24704/efficiently-determining-if-a-number-is-prime
     public static boolean newIsPrime(long number)
     {
+        if (number <= 1)
+        {
+            return false;
+        }
         if (number > 2 &&  number % 2 == 0)
         {
             return false;
