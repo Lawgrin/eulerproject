@@ -1,5 +1,6 @@
 package za.co.adhd_developers.questions;
 
+import za.co.adhd_developers.tools.PolygonalUtil;
 import za.co.adhd_developers.tools.Question;
 import za.co.adhd_developers.tools.Utils;
 
@@ -17,15 +18,15 @@ public class Question44 implements Question
 
         while (keepGoing)
         {
-            int currPentagonal = (int) Utils.getPentagonal(currNumber);
+            int currPentagonal = (int) PolygonalUtil.getPentagonal(currNumber);
 
             for (int j = 1; j < currNumber; j++)
             {
-                int otherPentagonal = (int) Utils.getPentagonal(j);
+                int otherPentagonal = (int) PolygonalUtil.getPentagonal(j);
 
-                if (Utils.isPentagonal(currPentagonal - otherPentagonal))
+                if (PolygonalUtil.isPentagonal(currPentagonal - otherPentagonal))
                 {
-                    if (Utils.isPentagonal(currPentagonal + otherPentagonal))
+                    if (PolygonalUtil.isPentagonal(currPentagonal + otherPentagonal))
                     {
                         this.answer = currPentagonal-otherPentagonal;
 

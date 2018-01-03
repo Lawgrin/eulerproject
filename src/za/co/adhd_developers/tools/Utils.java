@@ -2,10 +2,7 @@ package za.co.adhd_developers.tools;
 
 import java.lang.reflect.Array;
 import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Hashtable;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by Grant on 2017/07/28.
@@ -252,135 +249,135 @@ public class Utils
 
     }
 
-    public static double getTriangleNumber(double number)
-    {
-        return 0.5 * number * (number + 1);
-    }
-
-    public static double getTriangleOrigin(double number)
-    {
-        double a = 0.5*10;
-        double b = 0.5*10;
-        double c = 0-(number*10);
-
-        double underSqrt = Math.pow(b, 2) + (-4 * (a * c));
-
-        double underDivide = 2*a;
-
-        double sqrt = Math.sqrt(underSqrt);
-
-        double aboveDivide = (b*-1) + sqrt;
-
-        return aboveDivide / underDivide;
-    }
-
-    public static boolean isTriangle(double number)
-    {
-        double ans = getTriangleOrigin(number);
-
-        if (Double.isNaN(ans))
-        {
-            return false;
-        }
-
-        if (ans != Math.floor(ans))
-        {
-            return false;
-        }
-
-        return true;
-    }
-
-    public static double getPentagonal(double number)
-    {
-        return getPentagonal(0, number);
-    }
-
-    public static double getPentagonal(double beginPoint, double jumps)
-    {
-        double endPoint = beginPoint+jumps;
-
-        double begin = ((3*(beginPoint*beginPoint)) - beginPoint) / 2;
-
-        double sec1 = (4 * (endPoint - beginPoint));
-
-        double sec2 = (Utils.getTriangleNumber(endPoint-2) - Utils.getTriangleNumber(beginPoint-2)) * 3;
-
-        return begin + sec1 + sec2;
-    }
-
-    public static double getPentagonalOrigin(double number)
-    {
-        double a = 1.5*10;
-        double b = -0.5*10;
-        double c = 0-(number*10);
-
-        double underSqrt = Math.pow(b, 2) + (-4 * (a * c));
-
-        double underDivide = 2*a;
-
-        double sqrt = Math.sqrt(underSqrt);
-
-        double aboveDivide = (b*-1) + sqrt;
-
-        return aboveDivide / underDivide;
-    }
-
-    public static boolean isPentagonal(double number)
-    {
-        double ans = getPentagonalOrigin(number);
-
-        if (Double.isNaN(ans))
-        {
-            return false;
-        }
-
-        if (ans != Math.floor(ans))
-        {
-            return false;
-        }
-
-        return true;
-    }
-
-    public static double getHexagonalNumber(double number)
-    {
-        return number * ((2 * number) - 1);
-    }
-
-    public static double getHexagonalOrigin(int number)
-    {
-        double a = 2;
-        double b = -1;
-        double c = 0-(number);
-
-        double underSqrt = Math.pow(b, 2) + (-4 * (a * c));
-
-        double underDivide = 2*a;
-
-        double sqrt = Math.sqrt(underSqrt);
-
-        double aboveDivide = (b*-1) + sqrt;
-
-        return aboveDivide / underDivide;
-    }
-
-    public static boolean isHexagonal(int number)
-    {
-        double ans = getHexagonalOrigin(number);
-
-        if (Double.isNaN(ans))
-        {
-            return false;
-        }
-
-        if (ans != Math.floor(ans))
-        {
-            return false;
-        }
-
-        return true;
-    }
+//    public static double getTriangleNumber(double number)
+//    {
+//        return 0.5 * number * (number + 1);
+//    }
+//
+//    public static double getTriangleOrigin(double number)
+//    {
+//        double a = 0.5*10;
+//        double b = 0.5*10;
+//        double c = 0-(number*10);
+//
+//        double underSqrt = Math.pow(b, 2) + (-4 * (a * c));
+//
+//        double underDivide = 2*a;
+//
+//        double sqrt = Math.sqrt(underSqrt);
+//
+//        double aboveDivide = (b*-1) + sqrt;
+//
+//        return aboveDivide / underDivide;
+//    }
+//
+//    public static boolean isTriangle(double number)
+//    {
+//        double ans = getTriangleOrigin(number);
+//
+//        if (Double.isNaN(ans))
+//        {
+//            return false;
+//        }
+//
+//        if (ans != Math.floor(ans))
+//        {
+//            return false;
+//        }
+//
+//        return true;
+//    }
+//
+//    public static double getPentagonal(double number)
+//    {
+//        return getPentagonal(0, number);
+//    }
+//
+//    public static double getPentagonal(double beginPoint, double jumps)
+//    {
+//        double endPoint = beginPoint+jumps;
+//
+//        double begin = ((3*(beginPoint*beginPoint)) - beginPoint) / 2;
+//
+//        double sec1 = (4 * (endPoint - beginPoint));
+//
+//        double sec2 = (Utils.getTriangleNumber(endPoint-2) - Utils.getTriangleNumber(beginPoint-2)) * 3;
+//
+//        return begin + sec1 + sec2;
+//    }
+//
+//    public static double getPentagonalOrigin(double number)
+//    {
+//        double a = 1.5*10;
+//        double b = -0.5*10;
+//        double c = 0-(number*10);
+//
+//        double underSqrt = Math.pow(b, 2) + (-4 * (a * c));
+//
+//        double underDivide = 2*a;
+//
+//        double sqrt = Math.sqrt(underSqrt);
+//
+//        double aboveDivide = (b*-1) + sqrt;
+//
+//        return aboveDivide / underDivide;
+//    }
+//
+//    public static boolean isPentagonal(double number)
+//    {
+//        double ans = getPentagonalOrigin(number);
+//
+//        if (Double.isNaN(ans))
+//        {
+//            return false;
+//        }
+//
+//        if (ans != Math.floor(ans))
+//        {
+//            return false;
+//        }
+//
+//        return true;
+//    }
+//
+//    public static double getHexagonalNumber(double number)
+//    {
+//        return number * ((2 * number) - 1);
+//    }
+//
+//    public static double getHexagonalOrigin(int number)
+//    {
+//        double a = 2;
+//        double b = -1;
+//        double c = 0-(number);
+//
+//        double underSqrt = Math.pow(b, 2) + (-4 * (a * c));
+//
+//        double underDivide = 2*a;
+//
+//        double sqrt = Math.sqrt(underSqrt);
+//
+//        double aboveDivide = (b*-1) + sqrt;
+//
+//        return aboveDivide / underDivide;
+//    }
+//
+//    public static boolean isHexagonal(int number)
+//    {
+//        double ans = getHexagonalOrigin(number);
+//
+//        if (Double.isNaN(ans))
+//        {
+//            return false;
+//        }
+//
+//        if (ans != Math.floor(ans))
+//        {
+//            return false;
+//        }
+//
+//        return true;
+//    }
 
     public static boolean isPandigital(String number, int endPoint)
     {
@@ -623,4 +620,68 @@ public class Utils
 //
 //        return data;
 //    }
+
+
+    public static String toString(BigInteger bi) {
+        StringBuilder sb = new StringBuilder();
+        int i = 16;
+        while (bi.compareTo(powerOfTen(i)) >= 0)
+            i *= 2;
+
+
+        toString(bi, sb, i);
+
+        int start = 0;
+        while (sb.charAt(start) == '0') {
+            start++;
+            if (start >= sb.length()) {
+                start = sb.length()-1;
+                break;
+            }
+        }
+        return sb.substring(start);
+    }
+
+    private static void toString(BigInteger bi, StringBuilder sb, int digits) {
+        if (digits < 18) {
+            int start = sb.length();
+            for (int i = 0; i < digits; i++)
+                sb.append('0');
+            long l = bi.longValue();
+            for (int i = digits - 1; i >= 0; i--, l /= 10)
+                sb.setCharAt(start + i, (char) ('0' + l % 10));
+        } else {
+            int digits2 = digits / 2;
+            BigInteger[] parts = bi.divideAndRemainder(powerOfTen(digits2));
+            toString(parts[0], sb, digits - digits2);
+            toString(parts[1], sb, digits2);
+        }
+    }
+
+    private static final Map<Integer, BigInteger> powersOfTen = new HashMap<Integer, BigInteger>();
+
+    private static BigInteger powerOfTen(int digits2) {
+        BigInteger tens = powersOfTen.get(digits2);
+        if (tens == null)
+            powersOfTen.put(digits2, tens = BigInteger.TEN.pow(digits2));
+        return tens;
+    }
+
+
+    private static final double LOG2 = Math.log10(2.0);
+
+    /**
+     * Computes the natural logarithm of a BigInteger. Works for really big
+     * integers (practically unlimited)
+     *
+     * @param val Argument, positive integer
+     * @return Natural logarithm, as in <tt>Math.log()</tt>
+     */
+    public static double logBigInteger(BigInteger val) {
+        int blex = val.bitLength() - 1022; // any value in 60..1023 is ok
+        if (blex > 0)
+            val = val.shiftRight(blex);
+        double res = Math.log10(val.doubleValue());
+        return blex > 0 ? res + blex * LOG2 : res;
+    }
 }

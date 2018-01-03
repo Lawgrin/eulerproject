@@ -1,7 +1,7 @@
 package za.co.adhd_developers.questions;
 
+import za.co.adhd_developers.tools.PolygonalUtil;
 import za.co.adhd_developers.tools.Question;
-import za.co.adhd_developers.tools.Utils;
 
 public class Question45 implements Question
 {
@@ -17,7 +17,7 @@ public class Question45 implements Question
             double currNumber = 0;
             try
             {
-                currNumber = Utils.getHexagonalNumber(currIndex);
+                currNumber = PolygonalUtil.getHexagonalNumber(currIndex);
             }
             catch (Exception e)
             {
@@ -28,9 +28,9 @@ public class Question45 implements Question
 
             if (currNumber > this.above)
             {
-                if (Utils.isPentagonal(currNumber))
+                if (PolygonalUtil.isPentagonal(currNumber))
                 {
-                    if (Utils.isTriangle(currNumber))
+                    if (PolygonalUtil.isTriangle(currNumber))
                     {
                         this.answer = currNumber;
                     }
