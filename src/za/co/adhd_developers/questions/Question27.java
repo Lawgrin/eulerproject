@@ -95,8 +95,8 @@ public class Question27 implements Question
             }
         }
 
-        System.out.println(this.maxCount);
-        System.out.println(this.answer);
+//        System.out.println(this.maxCount);
+//        System.out.println(this.answer);
     }
 
     private void checkPrime(long finalResult, String key)

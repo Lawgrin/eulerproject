@@ -29,7 +29,7 @@ public class Question35 implements Question
 
             for (String rotation : allRotations)
             {
-                if (!Utils.isPrime(Long.valueOf(rotation)))
+                if (!Utils.newIsPrime(Long.valueOf(rotation)))
                 {
                     allPrime = false;
                     break;
@@ -46,10 +46,10 @@ public class Question35 implements Question
 
 //            System.out.println(output);
 
-            if (i % (this.limit / (this.limit >= 100 ? 100 : this.limit)) == 0)
-            {
-                System.out.println(i+"/"+this.limit);
-            }
+//            if (i % (this.limit / (this.limit >= 100 ? 100 : this.limit)) == 0)
+//            {
+//                System.out.println(i+"/"+this.limit);
+//            }
         }
 
         for (String key : this.isAllPrime.keySet())

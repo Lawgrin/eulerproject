@@ -1,7 +1,10 @@
 package za.co.adhd_developers.tools;
 
 import java.lang.reflect.Array;
+import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.math.MathContext;
+import java.math.RoundingMode;
 import java.util.*;
 
 /**
@@ -683,5 +686,44 @@ public class Utils
             val = val.shiftRight(blex);
         double res = Math.log10(val.doubleValue());
         return blex > 0 ? res + blex * LOG2 : res;
+    }
+
+    public static boolean perfectPower(BigDecimal a, double n){
+        BigDecimal[] x = new BigDecimal[40];
+        x[0] = BigDecimal.ONE;
+        int digits = a.toString().length();
+//        System.out.println(digits);
+        int roundTo = digits + 1;
+        for(int k = 1; k < 40; k++){
+            x[k] = (x[k - 1]
+                    .multiply(BigDecimal.valueOf((int)n - 1))
+                    .add(a
+                            .divide(x[k - 1]
+                                    .pow((int)n - 1), new MathContext(roundTo, RoundingMode.HALF_EVEN))))
+                    .multiply(BigDecimal.valueOf(1/n));
+        }
+        String str = x[39].toString();
+        return str.substring(str.indexOf(".") + 1, str.indexOf(".") + 6).equals("00000");
+    }
+
+    public static int log10(BigInteger huge) {
+        int digits = 0;
+        int bits = huge.bitLength();
+        // Serious reductions.
+        while (bits > 4) {
+            // 4 > log[2](10) so we should not reduce it too far.
+            int reduce = bits / 4;
+            // Divide by 10^reduce
+            huge = huge.divide(BigInteger.TEN.pow(reduce));
+            // Removed that many decimal digits.
+            digits += reduce;
+            // Recalculate bitLength
+            bits = huge.bitLength();
+        }
+        // Now 4 bits or less - add 1 if necessary.
+        if ( huge.intValue() > 9 ) {
+            digits += 1;
+        }
+        return digits;
     }
 }

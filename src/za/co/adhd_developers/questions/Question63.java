@@ -13,7 +13,7 @@ public class Question63 implements Question
     public void doWork()
     {
         long start = System.nanoTime();
-        for (int pow = 1; pow < Integer.MAX_VALUE ; pow++)
+        for (int pow = 1; pow < 1000 ; pow++)
         {
 //            if (pow % 1000 == 0)
 //            {
@@ -26,49 +26,45 @@ public class Question63 implements Question
             BigInteger counter = BigInteger.ZERO;
 
             int stringLeng = String.valueOf(pow).length();
-
-            if (stringLeng % 2 != 0)
-            {
-                stringLeng = stringLeng-1;
-            }
-
-            if (stringLeng != 0)
-            {
-                String args = "%-"+stringLeng/2+"d";
-                counter = new BigInteger(String.format(args,1).replace(" ", "0"));
-
-                counter = counter.subtract(BigInteger.ONE);
-            }
+//
+//            if (stringLeng % 2 != 0)
+//            {
+//                stringLeng = stringLeng-1;
+//            }
+//
+//            if (stringLeng != 0)
+//            {
+//                String args = "%-"+stringLeng/2+"d";
+//                counter = new BigInteger(String.format(args,1).replace(" ", "0"));
+//
+//                counter = counter.subtract(BigInteger.ONE);
+//            }
 
             BigInteger ans = BigInteger.ZERO;
 
-            stringLeng = Utils.toString(ans).length();
+            stringLeng = Utils.log10(ans)+1;
 
-            while (ans.compareTo(BigInteger.ZERO) == 0 || stringLeng < pow)
+            while (ans.compareTo(BigInteger.ZERO) == 0 || stringLeng <= pow)
             {
                 counter = counter.add(BigInteger.ONE);
                 ans = counter.pow(pow);
 
-                stringLeng = (int)Math.floor(Utils.logBigInteger(ans))+1;
-            }
+                stringLeng = Utils.log10(ans)+1;
 
-            if (ans.compareTo(BigInteger.ZERO) == 0)
-            {
-                continue;
-            }
-            if (stringLeng == pow)
-            {
-                System.out.println(counter.toString()+"^"+pow + ": " + Utils.toString(ans));
-                this.answer++;
+                if (stringLeng == pow)
+                {
+                    this.answer++;
+                }
             }
         }
-
-        System.out.println(this.answer);
     }
 
     @Override
     public void printAnswer()
     {
-
+        System.out.println("=================================");
+        System.out.println("Question 63");
+        System.out.println("The amount of n-digit positive integers that exist which are also an nth power, is: "+this.answer);
+        System.out.println("=================================");
     }
 }

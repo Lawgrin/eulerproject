@@ -20,6 +20,12 @@ public class Question37 implements Question
         while (this.truncatablePrimeCount < 11)
         {
             currNumber++;
+
+            if (currNumber == 2 || currNumber == 3 || currNumber == 5 || currNumber == 7)
+            {
+                continue;
+            }
+
             String currNumberStr = String.valueOf(currNumber);
 
             if (!isLocalPrime(currNumberStr))
@@ -63,11 +69,6 @@ public class Question37 implements Question
                 continue;
             }
 
-            if (currNumber == 2 || currNumber == 3 || currNumber == 5 || currNumber == 7)
-            {
-                continue;
-            }
-
             this.truncatablePrimeCount++;
             this.answer += Long.valueOf(currNumber);
         }
@@ -75,8 +76,6 @@ public class Question37 implements Question
 //        {
 //            System.out.println(item);
 //        }
-
-
     }
 
     private boolean isLocalPrime(String number)
@@ -86,7 +85,7 @@ public class Question37 implements Question
             return this.isPrime.get(number);
         }
 
-        if (Utils.isPrime(Long.valueOf(number)))
+        if (Utils.newIsPrime(Long.valueOf(number)))
         {
             this.isPrime.put(number, true);
             return true;

@@ -27,7 +27,7 @@ public class Question30 implements Question
 
             if (sum == i)
             {
-                System.out.println("This is the same: "+sum);
+//                System.out.println("This is the same: "+sum);
                 this.answer += sum;
             }
         }

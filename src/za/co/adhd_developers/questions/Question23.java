@@ -5,6 +5,8 @@ import za.co.adhd_developers.tools.Utils;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by Grant on 2017/08/01.
@@ -22,26 +24,16 @@ public class Question23 implements Question
     {
         for (int i = 1; i <= 28123 ; i++)
         {
-            ArrayList<Long> tmp_factors = Utils.getFactors((long)i);
-
-            ArrayList<Long> factors = new ArrayList<>();
-
-            for (long tmp : tmp_factors)
-            {
-                if (tmp != i)
-                {
-                    if (!factors.contains(tmp))
-                    {
-                        factors.add(tmp);
-                    }
-                }
-            }
+            ArrayList<Long> factors = Utils.getFactors((long)i);
 
             long sum = 0;
 
             for (long fact : factors)
             {
-                sum += fact;
+                if (fact != i)
+                {
+                    sum += fact;
+                }
             }
 
             if (sum > i)
@@ -51,38 +43,25 @@ public class Question23 implements Question
             }
         }
 
+        Set<Integer> sums = new HashSet<>();
+
+        for (Integer abundant1 : this.abundantNumbers)
+        {
+            for (Integer abundant2 : this.abundantNumbers)
+            {
+                Integer sum = abundant1 + abundant2;
+                if (!sums.contains(sum))
+                {
+                    sums.add(sum);
+                }
+            }
+        }
+
         for (int i = 1; i <= 28123; i++)
         {
-            if (i < (this.abundantNumbers.get(0)*2))
+            if (!sums.contains(i))
             {
                 this.cantSum.add(i);
-                continue;
-            }
-            for (Integer abundant : this.abundantNumbers)
-            {
-                if (abundant >= i)
-                {
-                    this.cantSum.add(i);
-                    break;
-                }
-
-                if (i == (abundant*2))
-                {
-                    break;
-                }
-
-                Integer check = i - abundant;
-
-                if (check < this.abundantNumbers.get(0))
-                {
-                    this.cantSum.add(i);
-                    break;
-                }
-
-                if (this.abundantNumbers.contains(check))
-                {
-                    break;
-                }
             }
         }
 

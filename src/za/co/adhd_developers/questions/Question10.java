@@ -20,20 +20,20 @@ public class Question10 implements Question
         int count = 0;
         for (long i = this.limit; i > 0; i--)
         {
-            if (Utils.isPrime(i))
+            if (Utils.newIsPrime(i))
             {
                 count++;
                 this.answer += i;
             }
 
-            if (i % 10000 == 0)
-            {
-                float progress = (float) i / (float) this.limit;
-                float percent = 100f - (progress*100);
-                Date end = new Date();
-//                System.out.println("(" + count + ") - " + percent + "%" + " - " + (end.getTime() - start.getTime()) + " - " + i);
-                start = end;
-            }
+//            if (i % 10000 == 0)
+//            {
+//                float progress = (float) i / (float) this.limit;
+//                float percent = 100f - (progress*100);
+//                Date end = new Date();
+////                System.out.println("(" + count + ") - " + percent + "%" + " - " + (end.getTime() - start.getTime()) + " - " + i);
+//                start = end;
+//            }
         }
     }
 
