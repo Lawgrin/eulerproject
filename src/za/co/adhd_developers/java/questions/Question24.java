@@ -8,6 +8,7 @@ import java.util.Arrays;
  * Created by Grant on 2017/08/01.
  */
 public class Question24 implements Question {
+
     String answer = "";
 
     int limit = 1000000;
@@ -76,8 +77,6 @@ public class Question24 implements Question {
     public void printAnswer() {
         System.out.println("=================================");
         System.out.println("Question 24");
-//        System.out.println("=================================");
-//        System.out.println(this.correctPaths);
         System.out.println("The millionth lexicographic permutation, is: " + this.answer);
         System.out.println("=================================");
     }

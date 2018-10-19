@@ -5,8 +5,8 @@ import za.co.adhd_developers.java.tools.Question;
 import java.util.ArrayList;
 import java.util.Hashtable;
 
-public class Question34 implements Question
-{
+public class Question34 implements Question {
+
     private Hashtable<String, Integer> factorals = new Hashtable<>();
 
     private ArrayList<Integer> allSums = new ArrayList<>();
@@ -14,19 +14,13 @@ public class Question34 implements Question
     private int answer = 0;
 
     @Override
-    public void doWork()
-    {
-        for (int i = 0; i < 10; i++)
-        {
-            if (i == 0)
-            {
-                factorals.put("0",1);
-            }
-            else 
-            {
+    public void doWork() {
+        for (int i = 0; i < 10; i++) {
+            if (i == 0) {
+                factorals.put("0", 1);
+            } else {
                 int runningTotal = 1;
-                for (int j = 1; j <= i; j++)
-                {
+                for (int j = 1; j <= i; j++) {
                     runningTotal = runningTotal * j;
                 }
 
@@ -34,49 +28,40 @@ public class Question34 implements Question
             }
         }
 
-        for (int target = 3; target < 1000000; target++)
-        {
+        for (int target = 3; target < 1000000; target++) {
             int runningTotal = 0;
 
             String[] digits = String.valueOf(target).split("|");
 
             boolean isEqual = true;
 
-            for (String digit : digits)
-            {
+            for (String digit : digits) {
                 int toAdd = factorals.get(digit);
 
-                if (runningTotal + toAdd > target)
-                {
+                if (runningTotal + toAdd > target) {
                     isEqual = false;
                     break;
-                }
-                else
-                {
+                } else {
                     runningTotal = runningTotal + toAdd;
                 }
             }
 
-            if (runningTotal != target)
-            {
+            if (runningTotal != target) {
                 isEqual = false;
             }
 
-            if (isEqual)
-            {
+            if (isEqual) {
                 this.allSums.add(runningTotal);
             }
         }
 
-        for (int i = 0; i < this.allSums.size(); i++)
-        {
+        for (int i = 0; i < this.allSums.size(); i++) {
             this.answer += this.allSums.get(i);
         }
     }
 
     @Override
-    public void printAnswer()
-    {
+    public void printAnswer() {
         System.out.println("=================================");
         System.out.println("Question 34");
         System.out.println("The sum of all numbers which are equal to the sum of the factorial of their digits, is: " + this.answer);

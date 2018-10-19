@@ -7,8 +7,8 @@ import za.co.adhd_developers.java.tools.Question;
 /**
  * Created by Grant on 2017/07/29.
  */
-public class Question13 implements Question
-{
+public class Question13 implements Question {
+
     int limit = 10;
     String answer = "";
 
@@ -114,28 +114,22 @@ public class Question13 implements Question
             new BigInteger("53503534226472524250874054075591789781264330331690")};
 
     @Override
-    public void doWork()
-    {
+    public void doWork() {
         BigInteger totalSum = BigInteger.ZERO;
-        for (int i = 0; i < this.allNumbers.length; i++)
-        {
+        for (int i = 0; i < this.allNumbers.length; i++) {
             totalSum = totalSum.add(this.allNumbers[i]);
         }
 
         String strSum = totalSum.toString();
 
-        this.answer = strSum.substring(0,this.limit);
+        this.answer = strSum.substring(0, this.limit);
     }
 
     @Override
-    public void printAnswer()
-    {
+    public void printAnswer() {
         System.out.println("=================================");
         System.out.println("Question 13");
-//        System.out.println("=================================");
-//        System.out.println(this.d1);
-//        System.out.println(this.d2);
-        System.out.println("The first "+this.limit+" digits are: " + this.answer);
+        System.out.println("The first " + this.limit + " digits are: " + this.answer);
         System.out.println("=================================");
     }
 }

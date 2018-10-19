@@ -3,14 +3,14 @@ package za.co.adhd_developers.kotlin
 import java.util.*
 
 
-internal var questions = intArrayOf(26)
+internal var questions = intArrayOf()
 internal var start = 1
-internal var end = 64
+internal var end = 27
 
 fun main(args: Array<String>) {
 
     if (questions.isEmpty()) {
-        questions = IntArray(end)
+        questions = IntArray((end - start) + 1)
         for ((index, i) in (start..end).withIndex()) {
             questions[index] = i
         }

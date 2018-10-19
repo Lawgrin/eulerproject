@@ -8,14 +8,13 @@ import java.math.BigInteger;
 /**
  * Created by Grant on 2017/07/29.
  */
-public class Question15 implements Question
-{
+public class Question15 implements Question {
+
     BigInteger gridSize = new BigInteger(String.valueOf("20"));
     BigInteger answer = new BigInteger("0");
 
     @Override
-    public void doWork()
-    {
+    public void doWork() {
         //See http://www.robertdickau.com/manhattan.html on how to work this out
         BigInteger top = Utils.factorial(this.gridSize.multiply(new BigInteger("2")));
 
@@ -26,12 +25,9 @@ public class Question15 implements Question
     }
 
     @Override
-    public void printAnswer()
-    {
+    public void printAnswer() {
         System.out.println("=================================");
         System.out.println("Question 15");
-//        System.out.println("=================================");
-//        System.out.println(this.correctPaths);
         System.out.println("In a " + this.gridSize + "x" + this.gridSize + " grid there are : " + this.answer + " paths");
         System.out.println("=================================");
     }

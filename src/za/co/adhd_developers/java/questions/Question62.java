@@ -9,13 +9,12 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Hashtable;
 
-public class Question62 implements Question
-{
+public class Question62 implements Question {
+
     private BigInteger answer = BigInteger.ZERO;
 
     @Override
-    public void doWork()
-    {
+    public void doWork() {
         BigInteger ans = BigInteger.valueOf(0);
 
         BigInteger baseNumber = BigInteger.valueOf(1);
@@ -25,8 +24,7 @@ public class Question62 implements Question
         BigInteger endpoint = BigInteger.valueOf(Integer.MAX_VALUE);
         endpoint = endpoint.multiply(BigInteger.valueOf(300));
 
-        while (ans.compareTo(endpoint) < 0)
-        {
+        while (ans.compareTo(endpoint) < 0) {
             ans = baseNumber.pow(3);
 
             baseNumber = baseNumber.add(BigInteger.valueOf(1));
@@ -47,8 +45,7 @@ public class Question62 implements Question
 
             ArrayList<String> items = groupedOptions.get(key);
 
-            if (items == null)
-            {
+            if (items == null) {
                 items = new ArrayList<>();
             }
 
@@ -57,51 +54,38 @@ public class Question62 implements Question
             groupedOptions.put(key, items);
         });
 
-        for (String key : groupedOptions.keySet())
-        {
-            if (groupedOptions.get(key).size() > 4)
-            {
+        for (String key : groupedOptions.keySet()) {
+            if (groupedOptions.get(key).size() > 4) {
 
                 boolean b = true;
-                for (int i = 0; i < groupedOptions.get(key).size(); i++)
-                {
-                    for (int j = 0; j < groupedOptions.get(key).size(); j++)
-                    {
-                        if (i == j)
-                        {
+                for (int i = 0; i < groupedOptions.get(key).size(); i++) {
+                    for (int j = 0; j < groupedOptions.get(key).size(); j++) {
+                        if (i == j) {
                             continue;
                         }
 
                         b = Utils.containsSameCharsInDiffOrder(groupedOptions.get(key).get(i), groupedOptions.get(key).get(j));
 
-                        if (!b)
-                        {
-                            System.out.println(groupedOptions.get(key).get(i) +"\n"+ groupedOptions.get(key).get(j));
+                        if (!b) {
+                            System.out.println(groupedOptions.get(key).get(i) + "\n" + groupedOptions.get(key).get(j));
                             break;
                         }
                     }
-                    if (!b)
-                    {
+                    if (!b) {
                         break;
                     }
                 }
 
-                if (!b)
-                {
+                if (!b) {
                     System.out.println("WTF");
                 }
                 allCbdNumbers.forEach((s, bigInteger) -> {
 
-                    if (groupedOptions.get(key).contains(bigInteger.toString()))
-                    {
-                        int possible = Integer.valueOf(s);
+                    if (groupedOptions.get(key).contains(bigInteger.toString())) {
 
-                        if (this.answer.compareTo(BigInteger.ZERO) == 0)
-                        {
+                        if (this.answer.compareTo(BigInteger.ZERO) == 0) {
                             this.answer = bigInteger;
-                        }
-                        else if (this.answer.compareTo(bigInteger) > 0)
-                        {
+                        } else if (this.answer.compareTo(bigInteger) > 0) {
                             this.answer = bigInteger;
                         }
                     }
@@ -111,11 +95,10 @@ public class Question62 implements Question
     }
 
     @Override
-    public void printAnswer()
-    {
+    public void printAnswer() {
         System.out.println("=================================");
         System.out.println("Question 62");
-        System.out.println("The smallest cube for which exactly five permutations of its digits are cube, is: "+this.answer.toString());
+        System.out.println("The smallest cube for which exactly five permutations of its digits are cube, is: " + this.answer.toString());
         System.out.println("=================================");
     }
 }

@@ -5,20 +5,18 @@ import za.co.adhd_developers.java.tools.Question;
 /**
  * Created by Grant on 2017/07/28.
  */
-public class Question6 implements Question
-{
+public class Question6 implements Question {
+
     double sumOfSquare = 0;
     double squareOfSum = 0;
 
     long answer = 0;
 
     @Override
-    public void doWork()
-    {
-        for (double i = 0; i <= 100; i++)
-        {
-            this.sumOfSquare = sumOfSquare + Math.pow(i,2);
-            this.squareOfSum+=i;
+    public void doWork() {
+        for (double i = 0; i <= 100; i++) {
+            this.sumOfSquare = sumOfSquare + Math.pow(i, 2);
+            this.squareOfSum += i;
         }
 
         this.squareOfSum = Math.pow(this.squareOfSum, 2);
@@ -30,13 +28,9 @@ public class Question6 implements Question
     }
 
     @Override
-    public void printAnswer()
-    {
+    public void printAnswer() {
         System.out.println("=================================");
         System.out.println("Question 6");
-//        System.out.println("=================================");
-//        System.out.println(this.d1);
-//        System.out.println(this.d2);
         System.out.println("The difference is: " + this.answer);
         System.out.println("=================================");
     }

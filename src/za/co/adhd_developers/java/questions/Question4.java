@@ -6,8 +6,8 @@ import za.co.adhd_developers.java.tools.Utils;
 /**
  * Created by Grant on 2017/07/28.
  */
-public class Question4 implements Question
-{
+public class Question4 implements Question {
+
     int limit = 999;
     int answer = 0;
 
@@ -15,18 +15,13 @@ public class Question4 implements Question
     int d2 = 0;
 
     @Override
-    public void doWork()
-    {
-        for (int i = this.limit; i >= 100; i--)
-        {
-            for (int j = this.limit; j >= 100; j--)
-            {
+    public void doWork() {
+        for (int i = this.limit; i >= 100; i--) {
+            for (int j = this.limit; j >= 100; j--) {
                 int possible = i * j;
 
-                if (Utils.isPalindromic(String.valueOf(possible)))
-                {
-                    if (possible > this.answer)
-                    {
+                if (Utils.isPalindromic(String.valueOf(possible))) {
+                    if (possible > this.answer) {
                         this.answer = possible;
                         this.d1 = i;
                         this.d2 = j;
@@ -37,13 +32,9 @@ public class Question4 implements Question
     }
 
     @Override
-    public void printAnswer()
-    {
+    public void printAnswer() {
         System.out.println("=================================");
         System.out.println("Question 4");
-//        System.out.println("=================================");
-//        System.out.println(this.d1);
-//        System.out.println(this.d2);
         System.out.println("This is a palindrome: " + this.answer);
         System.out.println("=================================");
     }

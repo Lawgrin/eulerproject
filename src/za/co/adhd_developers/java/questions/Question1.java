@@ -7,34 +7,26 @@ import java.util.ArrayList;
 /**
  * Created by Grant on 2017/07/28.
  */
-public class Question1 implements Question
-{
+public class Question1 implements Question {
     private int limit = 1000;
     private ArrayList<Integer> multiples = new ArrayList<>();
 
-    private void getAllMultiples()
-    {
-        for (int i = 0; i < this.limit; i++)
-        {
-            if (i % 3 == 0)
-            {
-                this.multiples.ensureCapacity(this.multiples.size()+1);
+    private void getAllMultiples() {
+        for (int i = 0; i < this.limit; i++) {
+            if (i % 3 == 0) {
+                this.multiples.ensureCapacity(this.multiples.size() + 1);
                 this.multiples.add(i);
-            }
-            else if (i % 5 == 0)
-            {
-                this.multiples.ensureCapacity(this.multiples.size()+1);
+            } else if (i % 5 == 0) {
+                this.multiples.ensureCapacity(this.multiples.size() + 1);
                 this.multiples.add(i);
             }
         }
     }
 
-    private int getSum()
-    {
+    private int getSum() {
         int total = 0;
 
-        for (int mult : this.multiples)
-        {
+        for (int mult : this.multiples) {
             total = total + mult;
         }
 
@@ -42,16 +34,14 @@ public class Question1 implements Question
     }
 
     @Override
-    public void doWork()
-    {
+    public void doWork() {
         this.multiples.clear();
 
         this.getAllMultiples();
     }
 
     @Override
-    public void printAnswer()
-    {
+    public void printAnswer() {
         System.out.println("=================================");
         System.out.println("Question 1");
 //        System.out.println("=================================");

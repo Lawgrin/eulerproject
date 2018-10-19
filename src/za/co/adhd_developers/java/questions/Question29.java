@@ -4,8 +4,8 @@ import za.co.adhd_developers.java.tools.Question;
 
 import java.util.ArrayList;
 
-public class Question29 implements Question
-{
+public class Question29 implements Question {
+
     private int lowerLimit = 2;
     private int upperlimit = 100;
 
@@ -14,19 +14,15 @@ public class Question29 implements Question
     private ArrayList<Double> terms = new ArrayList<>();
 
     @Override
-    public void doWork()
-    {
+    public void doWork() {
         int a = this.lowerLimit;
 
-        while (a <= this.upperlimit)
-        {
+        while (a <= this.upperlimit) {
             int b = this.lowerLimit;
-            while (b <= this.upperlimit)
-            {
-                double result = Math.pow(a,b);
+            while (b <= this.upperlimit) {
+                double result = Math.pow(a, b);
 
-                if (!this.terms.contains(result))
-                {
+                if (!this.terms.contains(result)) {
                     this.terms.add(result);
                 }
                 b++;
@@ -38,11 +34,10 @@ public class Question29 implements Question
     }
 
     @Override
-    public void printAnswer()
-    {
+    public void printAnswer() {
         System.out.println("=================================");
         System.out.println("Question 29");
-        System.out.println("Amount of distinct terms in the sequence, is: "+this.answer);
+        System.out.println("Amount of distinct terms in the sequence, is: " + this.answer);
         System.out.println("=================================");
     }
 }
