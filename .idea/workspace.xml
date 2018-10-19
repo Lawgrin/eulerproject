@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fe2bf7b-bf8c-45c0-9b32-459b16137687" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question25.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question26.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/java/Root.java" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/Root.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question0.java" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question0.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question24.java" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question24.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question25.java" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question25.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question27.java" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question27.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/kRoot.kt" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/kRoot.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question0.kt" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question0.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question24.kt" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question24.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question26.java" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question26.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Question26.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Question26.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question26.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="331">
@@ -61,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Question26.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Question26.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question26.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2386">
-              <caret line="207" column="89" lean-forward="true" selection-start-line="207" selection-start-column="89" selection-end-line="208" selection-end-column="78" />
+            <state relative-caret-position="321">
+              <caret line="112" column="42" lean-forward="false" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -171,13 +161,13 @@
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question24.kt" />
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question25.java" />
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question25.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question26.java" />
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question26.kt" />
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question0.kt" />
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question27.java" />
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question27.kt" />
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/kRoot.kt" />
         <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/Root.java" />
+        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question26.java" />
       </list>
     </option>
   </component>
@@ -945,14 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question26.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2386">
-          <caret line="207" column="89" lean-forward="true" selection-start-line="207" selection-start-column="89" selection-end-line="208" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question26.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -960,6 +942,14 @@
           <folding>
             <element signature="e#48#181#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question26.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="112" column="42" lean-forward="false" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
