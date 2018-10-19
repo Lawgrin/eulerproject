@@ -9,7 +9,7 @@ import java.util.Date;
  */
 public class Root
 {
-    static int[] questions = {0};
+    static int[] questions = {26};
     static int start = 1;
     static int end = 64;
 

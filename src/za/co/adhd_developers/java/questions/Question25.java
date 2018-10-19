@@ -33,8 +33,6 @@ public class Question25 implements Question
     {
         System.out.println("=================================");
         System.out.println("Question 25");
-//        System.out.println("=================================");
-//        System.out.println(this.correctPaths);
         System.out.println("The index of the first term with 1000 digits, is: "+this.answer);
         System.out.println("=================================");
     }

@@ -3,7 +3,7 @@ package za.co.adhd_developers.kotlin
 import java.util.*
 
 
-internal var questions = intArrayOf(0)
+internal var questions = intArrayOf(26)
 internal var start = 1
 internal var end = 64
 
@@ -30,6 +30,7 @@ fun main(args: Array<String>) {
                 println("Time taken: $timeTaken(ms)")
             }
         } catch (e: ClassNotFoundException) {
+            println("No Class with name Question$questNum")
             e.printStackTrace()
         } catch (e: InstantiationException) {
             e.printStackTrace()

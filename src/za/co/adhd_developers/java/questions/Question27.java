@@ -18,16 +18,6 @@ public class Question27 implements Question
     @Override
     public void doWork()
     {
-//        for (int i = 0; i < 80 ; i++)
-//        {
-//            double finalResult = Math.pow(i,2) + (-79*i) + 1601;
-//
-//            if (Utils.isPrime((long)finalResult))
-//            {
-//                System.out.println("i: "+i+" | "+finalResult);
-//            }
-//        }
-
         int a = -999;
         int b = -1000;
 
@@ -87,38 +77,6 @@ public class Question27 implements Question
                 this.maxCount = count;
             }
         }
-
-//        System.out.println(this.maxCount);
-//        System.out.println(this.answer);
-    }
-
-    private void checkPrime(long finalResult, String key)
-    {
-        Boolean finalResultIsPrime = false;
-
-        if (this.isPrime.containsKey(finalResult))
-        {
-            finalResultIsPrime = this.isPrime.get(finalResult);
-        }
-        else if (Utils.isPrime(finalResult))
-        {
-            finalResultIsPrime = true;
-            this.isPrime.put(finalResult, true);
-        }
-
-        if (finalResultIsPrime)
-        {
-            if (this.primeCount.containsKey(key))
-            {
-                Integer currCount = this.primeCount.get(key);
-                currCount++;
-                this.primeCount.put(key, currCount);
-            }
-            else
-            {
-                this.primeCount.put(key, 1);
-            }
-        }
     }
 
     @Override
@@ -126,8 +84,6 @@ public class Question27 implements Question
     {
         System.out.println("=================================");
         System.out.println("Question 27");
-//        System.out.println("=================================");
-//        System.out.println(this.correctPaths);
         String[] coeff = this.answer.split("\\|");
 
         int i_1 = Integer.valueOf(coeff[0]);
