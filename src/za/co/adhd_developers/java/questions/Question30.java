@@ -4,14 +4,16 @@ import za.co.adhd_developers.java.tools.Question;
 
 public class Question30 implements Question {
 
+    private int pow = 5;
+
     private int start = 2;
     private int end = 10000000;
-    private int pow = 5;
 
     private int answer = 0;
 
     @Override
     public void doWork() {
+
         for (int i = this.start; i < this.end; i++) {
             String number = String.valueOf(i);
 

@@ -3,6 +3,8 @@ package za.co.adhd_developers.java.questions;
 import za.co.adhd_developers.java.tools.Question;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Question29 implements Question {
 
@@ -11,7 +13,7 @@ public class Question29 implements Question {
 
     private int answer = 0;
 
-    private ArrayList<Double> terms = new ArrayList<>();
+    private Set<Double> terms = new HashSet<>();
 
     @Override
     public void doWork() {
@@ -20,11 +22,7 @@ public class Question29 implements Question {
         while (a <= this.upperlimit) {
             int b = this.lowerLimit;
             while (b <= this.upperlimit) {
-                double result = Math.pow(a, b);
-
-                if (!this.terms.contains(result)) {
-                    this.terms.add(result);
-                }
+                this.terms.add(Math.pow(a, b));
                 b++;
             }
             a++;

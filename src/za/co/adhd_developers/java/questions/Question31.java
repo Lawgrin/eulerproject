@@ -29,6 +29,8 @@ public class Question31 implements Question {
 
                                         if (total == 200) {
                                             answer++;
+                                        } else if (total > 200) {
+                                            break;
                                         }
                                     }
                                 }
