@@ -2,6 +2,8 @@ package za.co.adhd_developers.kotlin.tools
 
 import za.co.adhd_developers.kotlin.Question
 import java.math.BigInteger
+import java.util.*
+import kotlin.collections.HashSet
 
 fun Question.getFactors(number: Long): HashSet<Long> {
     var factor: Long = 1
@@ -83,4 +85,52 @@ fun factorial(number: BigInteger): BigInteger {
         val tmp = factorial(number.subtract(BigInteger("1")))
         number.multiply(tmp)
     }
+}
+
+fun Question.isPandigital(number: String): Boolean {
+    var count = 0
+    val numbers = number.toSet().map { c -> c.toString() }
+
+    if (numbers.size != number.length) {
+        return false
+    }
+
+    for (n in 1..number.length) {
+        if (number.contains(n.toString())) {
+            count++
+        }
+    }
+
+    return number.length == count
+}
+
+fun Question.getFactoral(number: Int): Int {
+    var runningTotal = 1
+    for (iteration in 1..number) {
+        runningTotal = runningTotal.times(iteration)
+    }
+
+    return runningTotal
+}
+
+fun Question.getAllCyclicallyRotations(text: String): ArrayList<String> {
+    var holdText = text
+    val returningData = ArrayList<String>()
+
+    for (i in 0 until text.length) {
+        val hold = ArrayList<String>()
+
+        Collections.addAll(hold, *holdText.split("|".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray())
+
+        val tmpStr = hold[0]
+
+        hold.removeAt(0)
+
+        hold.add(tmpStr)
+
+        holdText = hold.joinToString("")
+        returningData.add(holdText)
+    }
+
+    return returningData
 }

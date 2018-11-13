@@ -23,7 +23,7 @@ public class Question39 implements Question {
                         break;
                     }
 
-                    double hypot = Math.hypot(a, b);
+                    double hypot = Math.sqrt(Math.pow(a,2.0)+Math.pow(b,2.0));
 
                     if (Double.isNaN(hypot)) {
                         continue;
