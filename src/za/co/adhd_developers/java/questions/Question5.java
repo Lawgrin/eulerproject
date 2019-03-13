@@ -1,6 +1,9 @@
 package za.co.adhd_developers.java.questions;
 
 import za.co.adhd_developers.java.tools.Question;
+import za.co.adhd_developers.java.tools.Utils;
+
+import java.math.BigInteger;
 
 /**
  * Created by Grant on 2017/07/28.
@@ -11,24 +14,20 @@ public class Question5 implements Question {
 
     @Override
     public void doWork() {
-        int number = 380;
+        int number = 2;
         while (answer == 0) {
             boolean fits = true;
-
             for (int i = 20; i > 0; i--) {
                 if (number % i != 0) {
                     fits = false;
-                }
-
-                if (!fits) {
-                    i = 0;
+                    break;
                 }
             }
 
             if (fits) {
                 this.answer = number;
             } else {
-                number += 380;
+                number += 2;
             }
         }
     }

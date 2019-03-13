@@ -17,10 +17,8 @@ public class Question7 implements Question {
         int currNumber = 2;
 
         while (count != limit) {
-            if (currNumber == 2 || currNumber % 2 != 0) {
-                if (Utils.newIsPrime(currNumber)) {
-                    count++;
-                }
+            if (Utils.newIsPrime(currNumber)) {
+                count++;
             }
 
             if (count != limit) {

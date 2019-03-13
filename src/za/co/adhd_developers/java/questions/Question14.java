@@ -28,8 +28,8 @@ public class Question14 implements Question {
             long count = 0;
 
             while (num != 0) {
-                if (this.chains.keySet().contains(num)) {
-                    long otherCount = this.chains.get(num);
+                if (this.chains.keySet().contains((int) num)) {
+                    long otherCount = this.chains.get((int) num);
 
                     count = count + otherCount;
 

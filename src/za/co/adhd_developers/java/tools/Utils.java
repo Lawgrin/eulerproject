@@ -40,6 +40,9 @@ public class Utils {
         if (number > 2 && number % 2 == 0) {
             return false;
         }
+        if (number > 5 && number % 5 == 0) {
+            return false;
+        }
 
         int top = (int) Math.sqrt(number) + 1;
         for (int i = 3; i < top; i += 2) {
@@ -115,7 +118,11 @@ public class Utils {
         long newPrime = 0;
 
         while (newPrime == 0) {
-            currPrime++;
+            if (currPrime <= 2) {
+                currPrime++;
+            } else {
+                currPrime += 2;
+            }
 
             if (newIsPrime(currPrime)) {
                 newPrime = currPrime;
@@ -123,6 +130,19 @@ public class Utils {
         }
 
         return newPrime;
+    }
+
+    public static ArrayList<Long> allPrimesBellow(long limit) {
+        ArrayList<Long> result = new ArrayList<>();
+
+        long currPrime = 0;
+        while (currPrime < limit) {
+            result.ensureCapacity(result.size() + 1);
+            result.add(currPrime);
+            currPrime = Utils.getNextPrime(currPrime);
+        }
+
+        return result;
     }
 
     public static boolean isPalindromic(String phrase) {
@@ -484,19 +504,21 @@ public class Utils {
     }
 
     public static boolean containsDuplicateChars(String data) {
-        for (int i = 0; i < data.length(); i++) {
-            for (int j = 0; j < data.length(); j++) {
-                if (i == j) {
-                    continue;
-                }
-
-                if (data.charAt(i) == data.charAt(j)) {
-                    return true;
-                }
-            }
-        }
-
-        return false;
+        HashSet<String> chars = new HashSet<>(Arrays.asList(data.split("|")));
+        return chars.size() != data.length();
+//        for (int i = 0; i < data.length(); i++) {
+//            for (int j = 0; j < data.length(); j++) {
+//                if (i == j) {
+//                    continue;
+//                }
+//
+//                if (data.charAt(i) == data.charAt(j)) {
+//                    return true;
+//                }
+//            }
+//        }
+//
+//        return false;
     }
 
     public static boolean containsSameCharsInDiffOrder(String data1, String data2) {

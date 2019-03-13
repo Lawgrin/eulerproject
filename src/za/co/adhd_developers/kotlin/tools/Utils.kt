@@ -87,7 +87,9 @@ fun factorial(number: BigInteger): BigInteger {
     }
 }
 
-fun Question.isPandigital(number: String): Boolean {
+fun Question.isPandigital(number: String, startPoint: Int = 1, endpoint: Int = 9): Boolean {
+//    number.map { c -> c.toString().toInt() }.sorted()[0]
+//    number.map { c -> c.toString().toInt() }.sorted().last()
     var count = 0
     val numbers = number.toSet().map { c -> c.toString() }
 
@@ -95,7 +97,7 @@ fun Question.isPandigital(number: String): Boolean {
         return false
     }
 
-    for (n in 1..number.length) {
+    for (n in startPoint..endpoint) {
         if (number.contains(n.toString())) {
             count++
         }

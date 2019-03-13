@@ -116,8 +116,8 @@ public class Question13 implements Question {
     @Override
     public void doWork() {
         BigInteger totalSum = BigInteger.ZERO;
-        for (int i = 0; i < this.allNumbers.length; i++) {
-            totalSum = totalSum.add(this.allNumbers[i]);
+        for (BigInteger number : this.allNumbers) {
+            totalSum = totalSum.add(number);
         }
 
         String strSum = totalSum.toString();

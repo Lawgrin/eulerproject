@@ -73,7 +73,7 @@ public class Question52 implements Question {
     @Override
     public void printAnswer() {
         System.out.println("=================================");
-        System.out.println("Question 51");
+        System.out.println("Question 52");
         System.out.println("The smallest posotive integer that 2x, 3x, 4x, 5x, and 6x, contain the same digits, is: " + this.answer);
         System.out.println("=================================");
     }

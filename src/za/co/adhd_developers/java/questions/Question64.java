@@ -30,12 +30,7 @@ public class Question64 implements Question {
                 fractionAlgorithmParameters.add(tmp);
             }
 
-            int count = 0;
-            for (ContinuedFractionAlgorithmParameters algorithmParameters : fractionAlgorithmParameters) {
-                count++;
-            }
-
-            if (count % 2 != 0) {
+            if (fractionAlgorithmParameters.size() % 2 != 0) {
                 answer++;
             }
         }

@@ -3,7 +3,7 @@ package za.co.adhd_developers.kotlin
 import java.util.*
 
 
-internal var questions = intArrayOf(39)
+internal var questions = intArrayOf(0)
 internal var start = 1
 internal var end = 28
 
