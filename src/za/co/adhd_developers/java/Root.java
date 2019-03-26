@@ -9,7 +9,7 @@ import java.util.Hashtable;
  * Created by Grant on 2017/07/28.
  */
 public class Root {
-    static int[] questions = {};
+    static int[] questions = {0};
     static int start = 1;
     static int end = 62;
 

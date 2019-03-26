@@ -1,7 +1,5 @@
 package za.co.adhd_developers.kotlin
 
-import java.util.*
-
 
 internal var questions = intArrayOf(0)
 internal var start = 1
@@ -22,15 +20,15 @@ fun main(args: Array<String>) {
 
             val question = cls.newInstance()
             if (question is Question) {
-                val startTime = Date().time
+                val startTime = System.nanoTime()
                 question.doWork()
-                val endTime = Date().time
+                val endTime = System.nanoTime()
                 val timeTaken = endTime - startTime
                 question.printAnswer()
-                println("Time taken: $timeTaken(ms)")
+                println("Time taken: ${convertTime(timeTaken)}")
             }
         } catch (e: ClassNotFoundException) {
-            println("No Class with name Question$questNum")
+            println("No Class with name Question $questNum")
             e.printStackTrace()
         } catch (e: InstantiationException) {
             e.printStackTrace()
@@ -39,5 +37,39 @@ fun main(args: Array<String>) {
         }
 
     }
+}
 
+fun convertTime(inTimeDiff: Long): String {
+    var timeDifference = inTimeDiff
+
+    var minutes: Int = 0
+    var seconds: Int = 0
+    var miliseconds: Int = 0
+    var microseconds: Int = 0
+    var nanoseconds: Int = 0
+
+    if (timeDifference >= 60000000000) {
+        minutes = timeDifference.div(60000000000).toInt()
+        timeDifference = timeDifference.minus(minutes.times(60000000000))
+    }
+
+    if (timeDifference > 1000000000) {
+        seconds = timeDifference.div(1000000000).toInt()
+        timeDifference = timeDifference.minus(seconds.times(1000000000))
+    }
+
+    if (timeDifference > 1000000) {
+        miliseconds = timeDifference.div(1000000).toInt()
+        timeDifference = timeDifference.minus(miliseconds.times(1000000))
+    }
+
+    if (timeDifference > 1000) {
+        microseconds = timeDifference.div(1000).toInt()
+        timeDifference = timeDifference.minus(microseconds.times(1000))
+    }
+
+    nanoseconds = timeDifference.toInt()
+
+
+    return "$minutes:$seconds.${miliseconds.toString().padStart(3,"0".toCharArray()[0])} ${microseconds}μs ${nanoseconds}ns"
 }

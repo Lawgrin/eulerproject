@@ -1,29 +1,193 @@
 package za.co.adhd_developers.kotlin.questions
 
+import com.google.gson.Gson
+import com.google.gson.GsonBuilder
 import za.co.adhd_developers.kotlin.Question
-import kotlin.math.absoluteValue
+import za.co.adhd_developers.kotlin.magicitemstuff.ClassBuilder
+import java.io.File
+import java.nio.file.Files
+import java.nio.file.StandardOpenOption
 
 class Question0 : Question {
 
 
     override fun doWork() {
-        for (i in 1 until 11) {
-            if (i > 1) {
-                println()
-            }
-            for (j in 1 until 11) {
-                if (i == 1 || i == 10 || j == 1 || j == 10) {
-                    print("#")
-                } else if (i == j) {
-                    print("#")
-                } else if (i == j.minus(11).absoluteValue) {
-                    print("#")
-                } else {
-                    print(" ")
+//        ClassBuilder.buildClass("Spell", ClassBuilder.getSpellData())
+        val spellsFileData = Files.readAllLines(File("/Users/grantpienaar/Documents/RP Stuffs/raw_spells.json").toPath())
+        var spells = ClassBuilder.convertToSpellClass(spellsFileData.joinToString(""))
+
+//        spells = spells.filter { it.source == "CRB" }
+
+        val components = spells
+                .map { it.components }
+                .filter { it.contains(".+\\(.+,.+\\)".toRegex()) }
+                .union(emptyList())
+                .sorted()
+                .forEach {
+                    println(it)
                 }
-            }
+
+//        components
+//                .joinToString(", ")
+//                .split(", ")
+//                .groupingBy { it }
+//                .eachCount()
+//                .toSortedMap()
+//                .forEach { t, u ->
+//                    println("$t| - $u")
+//                }
+
+
+//        val spellLevels = spells
+//                .map { it.spelllevelsdisplay }
+//                .joinToString(", ")
+//                .split(",")
+//                .map { it.trim() }
+
+        //List all classes
+//        spellLevels.map { it.substring(0, it.length - 2) }
+//                .union(emptyList())
+//                .sorted()
+//                .forEach { println(it) }
+
+        //Count per class
+//        spellLevels.groupingBy { it.substring(0, it.length - 2) }
+        //count per class per lever
+//        spellLevels.groupingBy { it }
+//                .eachCount()
+//                .toSortedMap()
+//                .forEach { t, u ->
+//                    println("$t: $u")
+//                }
+
+//        spells.filter { it.wizard != it.sorcerer }
+//                .sortedBy { it.wizard }
+//                .forEach {
+//                    println("${it.name} | wizard: ${it.wizard} - sorcerer: ${it.sorcerer}")
+//                }
+
+//        val castingTimes = spells.map { it.castingtime }
+//        castingTimes
+//                .union(emptyList())
+//                .sorted()
+//                .forEach { println(it) }
+
+//        val schools = spells.map { it.school }
+//        schools.union(emptyList())
+//                .sorted()
+//                .forEach { println(it) }
+
+//        val ranges = spells.map { it.range }
+//        ranges
+////                .filter { it.contains("below".toRegex()) }
+//                .union(emptyList())
+//                .sorted()
+//                .forEach { println(it) }
+
+//        val durations= spells.map { it.duration }
+//        durations
+////                .filter { it.contains("/\\s".toRegex()) }
+//                .groupingBy { it }
+//                .eachCount()
+//                .toSortedMap()
+//                .forEach { t, u ->
+//                    println("$t| - $u")
+//                }
+
+//        val saves= spells.map { it.savingthrow }
+//        saves
+////                .filter { it.contains("resistance") }
+//                .groupingBy { it }
+//                .eachCount()
+//                .toSortedMap()
+//                .forEach { t, u ->
+//                    println("$t| - $u")
+//                }
+
+//        val areas= spells.map { it.area }
+//        areas.groupingBy { it }
+//                .eachCount()
+//                .toSortedMap()
+//                .forEach { t, u ->
+//                    println("$t| - $u")
+//                }
+
+//        val srs= spells.map { it.sr }
+//        srs.groupingBy { it }
+//                .eachCount()
+//                .toSortedMap()
+//                .forEach { t, u ->
+//                    println("$t| - $u")
+//                }
+
+//        val descriptors = spells.map { it.descriptor }
+//        descriptors.groupingBy { it }
+//                .eachCount()
+//                .toSortedMap()
+//                .forEach { t, u ->
+//                    println("$t| - $u")
+//                }
+
+//        val targets = spells.map { it.targets }
+//        targets.groupingBy { it }
+//                .eachCount()
+//                .toSortedMap()
+//                .forEach { t, u ->
+//                    println("$t| - $u")
+//                }
+
+//        spells.map { it.description }.joinToString(" ")
+//                .split("\\s".toRegex())
+//                .map { it.replace("(\\.|\\,|\\)|\\(|:|;|\\?|!)".toRegex(),"") }
+//                .groupingBy { it }
+//                .eachCount()
+//                .toSortedMap()
+//                .forEach { t, u ->
+//                    println("$t| - $u")
+//                }
+
+//        val sources = spells.map { it.source }
+//        sources.groupingBy { it }
+//                .eachCount()
+//                .toSortedMap()
+//                .forEach { t, u ->
+//                    println("$t| - $u")
+//                }
+
+        val shouldBePretty = true
+        var gson = Gson()
+        if (shouldBePretty) {
+            gson = GsonBuilder().setPrettyPrinting().create()
         }
-        println()
+        val useSource = arrayListOf("CRB", "APG")
+        val smallListSpells = spells.filter { useSource.contains(it.source) }
+
+        println("Spells: ${smallListSpells.size}")
+
+        var file = File("/Users/grantpienaar/Documents/RP Stuffs/Johann/crb_spells.json")
+        file.delete()
+        file.createNewFile()
+        Files.write(File("/Users/grantpienaar/Documents/RP Stuffs/Johann/crb_spells.json").toPath(), gson.toJson(smallListSpells).toByteArray(), StandardOpenOption.WRITE)
+
+        val jsonData = Gson().toJsonTree(smallListSpells[0])
+        val objectDef = StringBuilder("Spell Object Definition")
+        jsonData.asJsonObject.keySet()
+                .forEach {
+                    val je = jsonData.asJsonObject.get(it)
+                    if (je.isJsonPrimitive) {
+                        if (je.asJsonPrimitive.isString) {
+                            objectDef.append("$it - String")
+                        } else if (je.asJsonPrimitive.isNumber) {
+                            objectDef.append("$it - Integer")
+                        }
+                    }
+                    objectDef.append("\n")
+                }
+
+        file = File("/Users/grantpienaar/Documents/RP Stuffs/Johann/Spell Object.txt")
+        file.delete()
+        file.createNewFile()
+        Files.write(File("/Users/grantpienaar/Documents/RP Stuffs/Johann/Spell Object.txt").toPath(), objectDef.toString().toByteArray(), StandardOpenOption.WRITE)
     }
 
     override fun printAnswer() {
