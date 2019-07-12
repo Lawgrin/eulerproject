@@ -3,6 +3,7 @@ package za.co.adhd_developers.java.questions;
 import za.co.adhd_developers.java.tools.Question;
 import za.co.adhd_developers.java.tools.Utils;
 
+import javax.rmi.CORBA.Util;
 import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.List;
@@ -13,6 +14,7 @@ public class Question47 implements Question {
 
     @Override
     public void doWork() {
+
         Hashtable<Long, List<Long>> possibles = new Hashtable<>();
         int target = 4;
 

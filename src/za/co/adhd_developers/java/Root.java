@@ -1,17 +1,17 @@
 package za.co.adhd_developers.java;
 
 import za.co.adhd_developers.java.tools.Question;
+import za.co.adhd_developers.kotlin.tools.MyToolbox;
 
-import java.util.Date;
 import java.util.Hashtable;
 
 /**
  * Created by Grant on 2017/07/28.
  */
 public class Root {
-    static int[] questions = {0};
+    static int[] questions = {51};
     static int start = 1;
-    static int end = 62;
+    static int end = 5;
 
     public static void main(String[] args) {
         Hashtable<String, Long> results = new Hashtable<>();
@@ -37,7 +37,8 @@ public class Root {
                     long end = System.nanoTime();
                     long timeTaken = (end - start);
                     ((Question) question).printAnswer();
-                    System.out.println("Time taken: " + timeTaken + "(ns)");
+                    String timeTakenStr = MyToolbox.DateTimeToolbox.Tools.getHumanReadableDuration(timeTaken, MyToolbox.DateTimeToolbox.TimeUnit.Nanosecond);
+                    System.out.println("Time taken: " + timeTakenStr);
                     results.put("Question " + String.valueOf(questNum), timeTaken);
                 }
             } catch (ClassNotFoundException | InstantiationException | IllegalAccessException e) {
@@ -47,8 +48,8 @@ public class Root {
 
         System.out.println("\n\n");
         for (int i = 1; i <= end; i++) {
-            if (results.containsKey("Question "+i)) {
-                System.out.println("Question "+i + "\t" + results.get("Question "+i));
+            if (results.containsKey("Question " + i)) {
+                System.out.println("Question " + i + "\t" + results.get("Question " + i));
             }
         }
     }

@@ -6,28 +6,23 @@ import java.math.BigInteger;
 
 public class Question48 implements Question {
 
-    private String answer = "";
+    private BigInteger answer = BigInteger.ZERO;
 
     @Override
     public void doWork() {
-        BigInteger runningTotal = new BigInteger("0");
+        BigInteger runningTotal = BigInteger.ZERO;
         for (int n = 1; n <= 1000; n++) {
-            BigInteger toAdd = new BigInteger(String.valueOf(n));
-            toAdd = toAdd.pow(n);
-
-            runningTotal = runningTotal.add(toAdd);
+            runningTotal = runningTotal.add(BigInteger.valueOf(n).pow(n));
         }
 
-        String total = runningTotal.toString();
-
-        this.answer = total.substring(total.length() - 10);
+        this.answer = runningTotal.mod(BigInteger.valueOf(10000000000L));
     }
 
     @Override
     public void printAnswer() {
         System.out.println("=================================");
-        System.out.println("Question 49");
-        System.out.println("The last 10 digits of the series, 1^1 + 2^2 + 3^3 + ... + 1000^1000, is: " + this.answer);
+        System.out.println("Question 48");
+        System.out.println("The last 10 digits of the series, 1^1 + 2^2 + 3^3 + ... + 1000^1000, is: " + this.answer.toString());
         System.out.println("=================================");
     }
 }

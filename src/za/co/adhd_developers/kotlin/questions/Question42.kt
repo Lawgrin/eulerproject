@@ -1,7 +1,7 @@
 package za.co.adhd_developers.kotlin.questions
 
 import za.co.adhd_developers.kotlin.Question
-import za.co.adhd_developers.kotlin.tools.isTriangle
+import za.co.adhd_developers.kotlin.tools.MyToolbox
 
 class Question42 : Question {
 
@@ -13,7 +13,7 @@ class Question42 : Question {
         val words = wordsFileContent.replace("\"","").split(",")
 
         words.forEach { s: String ->
-            if (isTriangle(s.sumByDouble { c -> c.toDouble() - 64.0 })) {
+            if (MyToolbox.PolygonalToolBox.isTriangle(s.sumByDouble { c -> c.toDouble() - 64.0 })) {
                 this.answer++
             }
         }

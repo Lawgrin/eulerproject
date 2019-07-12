@@ -21,12 +21,9 @@ public class Question49 implements Question {
                 continue;
             }
 
-            for (int diff = 0; diff < 10000; diff++) {
+            for (int diff = 1; diff < (10000 - currNumber); diff++) {
                 int secondNumber = currNumber + diff;
 
-                if (secondNumber > 9999) {
-                    continue;
-                }
                 if (!Utils.containsSameCharsInDiffOrder(String.valueOf(currNumber), String.valueOf(secondNumber))) {
                     continue;
                 }

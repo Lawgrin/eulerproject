@@ -36,7 +36,7 @@ public class Question44 implements Question {
     public void printAnswer() {
         System.out.println("=================================");
         System.out.println("Question 44");
-        System.out.println("The difference of th pentagonal pair that matches the criteria, is: " + this.answer);
+        System.out.println("The difference of the pentagonal pair that matches the criteria, is: " + this.answer);
         System.out.println("=================================");
     }
 }

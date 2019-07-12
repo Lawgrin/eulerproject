@@ -10,24 +10,20 @@ class Question26 : Question {
     var answer = 0
     var oldLength = 0
     override fun doWork() {
-
-        val list = arrayListOf<Int>(3, 4, 6, 7)
         for (number in 999 downTo 2) {
             val scale = (number - 1) * 2
-            val original = BigDecimal.ONE.divide(BigDecimal("$number"), scale, RoundingMode.DOWN).stripTrailingZeros().toString()
-
-            val recurring = original.substring(2)
-            val HALF_LENGTH = recurring.length / 2
-
             if (scale / 2 < oldLength) {
                 continue
             }
+            val original = BigDecimal.ONE.divide(BigDecimal("$number"), scale, RoundingMode.DOWN).stripTrailingZeros().toString()
+
+            val recurring = original.substring(2)
 
             var copyFromIndex = 0
             var copyLength = 1
 
-            while (copyFromIndex <= HALF_LENGTH) {
-                while (copyFromIndex + copyLength <= HALF_LENGTH) {
+            while (copyFromIndex <= number.minus(1)) {
+                while (copyFromIndex + copyLength <= number.minus(1)) {
                     var prefex = ""
                     if (copyFromIndex > 0) {
                         prefex = recurring.substring(0, copyFromIndex)
@@ -39,9 +35,7 @@ class Question26 : Question {
                     val matcher = Pattern.compile(regex).matcher(original)
 
                     if (matcher.find()) {
-//                        println("regex: $regex")
-//                        println("checkFor: $checkFor (${checkFor.length})")
-                        copyFromIndex = HALF_LENGTH
+                        copyFromIndex = number.minus(1)
 
                         val newLength = checkFor.length
                         if (oldLength < newLength) {

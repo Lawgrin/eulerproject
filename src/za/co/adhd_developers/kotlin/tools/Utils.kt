@@ -136,3 +136,12 @@ fun Question.getAllCyclicallyRotations(text: String): ArrayList<String> {
 
     return returningData
 }
+
+fun <T> Array<out T>.containsOneOf(vararg elements: T): Boolean {
+    elements.forEach { element ->
+        if (this.indexOf(element) >= 0) {
+            return true
+        }
+    }
+    return false
+}

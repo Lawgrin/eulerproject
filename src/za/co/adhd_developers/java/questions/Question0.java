@@ -4,10 +4,8 @@ import za.co.adhd_developers.java.tools.Question;
 
 public class Question0 implements Question {
 
-
     @Override
     public void doWork() {
-        
     }
 
     @Override

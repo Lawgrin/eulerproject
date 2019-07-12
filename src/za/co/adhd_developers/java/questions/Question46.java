@@ -2,6 +2,7 @@ package za.co.adhd_developers.java.questions;
 
 import za.co.adhd_developers.java.tools.Question;
 import za.co.adhd_developers.java.tools.Utils;
+import za.co.adhd_developers.kotlin.tools.MyToolbox;
 
 public class Question46 implements Question {
 
@@ -9,7 +10,7 @@ public class Question46 implements Question {
 
     @Override
     public void doWork() {
-        long oddNumber = 1;
+        long oddNumber = 5;
         long otherNumber = 1;
         long currPrime = 3;
 
@@ -30,7 +31,6 @@ public class Question46 implements Question {
                 }
                 continue;
             }
-            tmp = tmp;
 
             long sqrAns = 2 * (otherNumber * otherNumber);
 
@@ -50,7 +50,6 @@ public class Question46 implements Question {
 
             currPrime = Utils.getNextPrime(currPrime);
             otherNumber = 1;
-
         }
     }
 
