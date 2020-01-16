@@ -13,6 +13,6 @@ class Stopwatch {
     fun lap(): String {
         val endTime = System.nanoTime()
         val timeTaken = endTime - startTime
-        return convertTime(timeTaken)
+        return if (timeTaken > 0) convertTime(timeTaken) else ""
     }
 }

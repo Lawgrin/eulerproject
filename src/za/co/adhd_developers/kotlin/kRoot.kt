@@ -1,9 +1,9 @@
 package za.co.adhd_developers.kotlin
 
 
-internal var questions = intArrayOf(0)
+internal var questions = intArrayOf()
 internal var start = 1
-internal var end = 28
+internal var end = 50
 
 fun main(args: Array<String>) {
 

@@ -29,7 +29,6 @@ class Question30 : Question {
 
             if (possible == n.toDouble()) {
                 answer = answer.plus(possible)
-                println(answer)
             }
         }
     }

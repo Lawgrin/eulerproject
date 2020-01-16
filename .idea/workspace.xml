@@ -5,34 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fe2bf7b-bf8c-45c0-9b32-459b16137687" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/training/exampleOne/MeasurementUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/training/exerciseOne/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/HexUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/Stopwatch.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/java/Root.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/Root.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question44.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question46.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question47.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question48.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question48.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question49.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question49.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/java/tools/PolygonalUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/tools/PolygonalUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/java/tools/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/tools/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/magicitemstuff/ClassBuilder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/models/Armor.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/models/Enchantment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/models/Spell.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/models/Weapon.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/kRoot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/kRoot.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question0.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question0.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question26.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question26.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question42.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question42.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question44.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question44.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/PolygonalUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/PolygonalUtil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/Utils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question30.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question30.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/MyToolbox.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/MyToolbox.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/Stopwatch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/Stopwatch.kt" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,101 +26,8 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/kRoot.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="818">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question0.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/MyToolbox.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="337" column="26" selection-start-line="337" selection-start-column="26" selection-end-line="337" selection-end-column="26" />
-              <folding>
-                <element signature="e#44#179#0" expanded="true" />
-                <element signature="n#!!block;n#Tools#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#TextToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#isValidInteger#0;n#!!block;n#Tools#0;n#!!block;n#TextToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#CollectionToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#HexToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#byteArrayToHexString#0;n#!!block;n#Tools#0;n#!!block;n#HexToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#hexStringToByteArray#0;n#!!block;n#Tools#0;n#!!block;n#HexToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#PermutationToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#PermutationWorker#0;n#!!block;n#PermutationToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#getFactors#0;n#!!block;n#Tools#0;n#!!block;n#NumberToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#isPrime#0;n#!!block;n#Tools#0;n#!!block;n#NumberToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#getNthPrime#0;n#!!block;n#Tools#0;n#!!block;n#NumberToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#getNextPrime#0;n#!!block;n#Tools#0;n#!!block;n#NumberToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#isEven#0;n#!!block;n#Tools#0;n#!!block;n#NumberToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#isOdd#0;n#!!block;n#Tools#0;n#!!block;n#NumberToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#sumEachDigit#0;n#!!block;n#Tools#0;n#!!block;n#NumberToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#Base#0;n#!!block;n#NumberToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#getTriangleOrigin#0;n#!!block;n#Tools#0;n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#isTriangle#0;n#!!block;n#Tools#0;n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#getPentagonal#0;n#!!block;n#Tools#0;n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#getPentagonalOrigin#0;n#!!block;n#Tools#0;n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#isPentagonal#0;n#!!block;n#Tools#0;n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#getHexagonalNumber#0;n#!!block;n#Tools#0;n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#getHexagonalOrigin#0;n#!!block;n#Tools#0;n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#isHexagonal#0;n#!!block;n#Tools#0;n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#DateTimeToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#MathToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#generateSphericalPoints#0;n#!!block;n#Tools#0;n#!!block;n#MathToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#NX#0;n#!!block;n#Tools#0;n#!!block;n#MathToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#sphericalCoordinate#0;n#!!block;n#Tools#0;n#!!block;n#MathToolbox#0;n#!!block;n#MyToolbox#0" />
-                <element signature="n#!!block;n#LengthToolBox#0;n#!!block;n#MyToolbox#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/Root.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question51.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question51.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="e#48#144#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FavoritesManager">
+    <favorites_list name="EulerProject" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -190,142 +77,11 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/HexUtils.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/models/CardDef.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/Question.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/TextTools.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/Utils.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/DevTools.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/MyTools.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/TestBox.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/tmp/TM.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/tmp/MaTM.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/tmp/MagTMImpl.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/model/Asdf.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/models/Employee.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/models/Company.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/training/Table.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/training/MeasurementUnit.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/training/exampleTwo/Bookshelf.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/training/exerciseOne/Company.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/training/exampleOne/Priority.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/training/exampleOne/Table.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/training/exampleTwo/Book.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/tools/Question.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/training/exampleTwo/Bookcase.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/training/exampleOne/MeasurementUnit.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/models/Weapon.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/magicitemstuff/ClassBuilder.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question26.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question44.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/PolygonalUtil.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/tools/PolygonalUtil.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question42.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question44.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question45.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question46.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question46.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question47.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/tools/Utils.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question47.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question1.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question0.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question48.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question48.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/Stopwatch.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question49.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question49.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question50.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/java/Root.java" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question51.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/kRoot.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/MyToolbox.kt" />
-        <option value="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question0.kt" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-291" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="EulerProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="eulerproject" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="EulerProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="eulerproject" type="616d4139:PackageViewModuleNode" />
-              <item name="za.co.adhd_developers" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="EulerProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="eulerproject" type="616d4139:PackageViewModuleNode" />
-              <item name="za.co.adhd_developers" type="1f31426a:PackageElementNode" />
-              <item name="kotlin" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="EulerProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eulerproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EulerProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eulerproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EulerProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eulerproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adhd_developers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EulerProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eulerproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adhd_developers" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EulerProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eulerproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adhd_developers" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EulerProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eulerproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adhd_developers" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1VsrUFJjndpYJH05jHPh4x67jnQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -335,58 +91,35 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="utils&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/tools/Utils.java&#10;ut&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/kotlin/tools/Utils.kt&#10;question26&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question26.java&#10;question24&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question24&#10;quest&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/kotlin/questions/Question0.kt&#10;ques&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question0.java&#10;question0&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/kotlin/questions/Question0.kt&#10;q&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question0.java&#10;root&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/Root.java&#10;question2&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question26.java&#10;question64&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question64&#10;Question0&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/kotlin/questions/Question0.kt&#10;kro&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/kotlin/kRoot.kt&#10;question0.ja&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question0.java&#10;question22&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question22&#10;Question44&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question44&#10;Question43&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question43&#10;Question42&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question42&#10;Question41&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question41&#10;question40&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question40&#10;Question39&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question39&#10;Question38&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question38&#10;Question37&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question37&#10;question36&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question36&#10;Question35&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question35&#10;question34&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question34&#10;quest33&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question33&#10;question&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question0.java&#10;question0.j&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question30.java&#10;Question32&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question32&#10;Question30&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question30.java&#10;Question31&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question31&#10;Question29&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question29&#10;Question28&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question28.java&#10;Question24&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question24&#10;Question23&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question23&#10;Question22&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question22&#10;Question21&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question21&#10;Question20&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question20&#10;Question19&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question19&#10;Question18&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question18.java&#10;Question17&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question17&#10;Question16&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question16&#10;question15&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question15&#10;question14&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question14&#10;question13&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question13&#10;question12&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question12&#10;question11&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question11&#10;question10&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question10&#10;question9&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question9" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/externalResources" />
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="za.co.adhd_developers.kotlin.tools" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/externalResources" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/externalResources" />
+    </key>
   </component>
   <component name="RunManager" selected="Kotlin.za.co.adhd_developers.kotlin.KRootKt">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Root" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="za.co.adhd_developers.java.Root" />
-      <module name="eulerproject" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="za.co.adhd_developers.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -409,6 +142,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="za.co.adhd_developers.kotlin.KRootKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="za.co.adhd_developers.kotlin.TheQuestion6Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="eulerproject" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="za.co.adhd_developers.kotlin.TheQuestion6Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -458,15 +204,27 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Root" />
       <item itemvalue="Kotlin.za.co.adhd_developers.kotlin.KRootKt" />
+      <item itemvalue="Kotlin.za.co.adhd_developers.kotlin.TheQuestion6Kt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.za.co.adhd_developers.kotlin.KRootKt" />
-        <item itemvalue="Application.Root" />
+        <item itemvalue="Kotlin.za.co.adhd_developers.kotlin.TheQuestion6Kt" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -481,38 +239,6 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="1912" y="-560" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2196162" />
-      <window_info id="Structure" order="1" weight="0.24935733" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.5115681" weight="0.26805556" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.48083067" weight="0.33888888" />
-      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.51916933" side_tool="true" weight="0.4212766" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50277776" side_tool="true" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="8" sideWeight="0.4978701" weight="0.32978722" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="9" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.33333334" />
-      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.48843187" weight="0.25111112" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.3297568" />
-      <window_info anchor="right" id="Maven" order="7" />
-    </layout>
-  </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
       <list>
@@ -523,25 +249,77 @@
       </list>
     </option>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="2334" y="-153" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578055190842">
+      <screen x="1920" y="-328" width="1920" height="1040" />
+    </state>
+    <state x="2334" y="-153" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1578055190842" />
+    <state x="2668" y="-107" key="#com.intellij.ide.util.MemberChooser" timestamp="1578055799539">
+      <screen x="1920" y="-328" width="1920" height="1040" />
+    </state>
+    <state x="2668" y="-107" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1578055799539" />
+    <state x="2560" y="-80" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578052767588">
+      <screen x="1920" y="-328" width="1920" height="1040" />
+    </state>
+    <state x="2560" y="-80" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1578052767588" />
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1579173443820">
+      <screen x="1920" y="-328" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-328.1920.1040@0.0.1920.1040" timestamp="1578310463018" />
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1579173443820" />
+    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1579173443820">
+      <screen x="1920" y="-328" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-328.1920.1040@0.0.1920.1040" timestamp="1578310463018" />
+    <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1579173443820" />
+    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1579173443819">
+      <screen x="1920" y="-328" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-328.1920.1040@0.0.1920.1040" timestamp="1578310463017" />
+    <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1579173443819" />
+    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1579173443820">
+      <screen x="1920" y="-328" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-328.1920.1040@0.0.1920.1040" timestamp="1578310463018" />
+    <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1579173443820" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1578070209116">
+      <screen x="1920" y="-328" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1578070209116" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1578070209116">
+      <screen x="1920" y="-328" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1578070209116" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1578070209116">
+      <screen x="1920" y="-328" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1578070209116" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1578070209116">
+      <screen x="1920" y="-328" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1578070209116" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578302875187">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-328.1920.1040@0.0.1920.1040" timestamp="1578302875187" />
+    <state x="2543" y="-103" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1578053836499" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/za/co/adhd_developers/java/tools/PolygonalUtil.java</url>
           <line>192</line>
-          <properties />
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/za/co/adhd_developers/java/resources/ContinuedFractionAlgorithmParameters.java</url>
           <line>14</line>
-          <properties />
           <option name="timeStamp" value="257" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question33.kt</url>
           <line>54</line>
-          <properties />
           <option name="timeStamp" value="327" />
         </line-breakpoint>
       </breakpoints>
@@ -555,454 +333,6 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/tools/PolygonalUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="150" column="25" lean-forward="true" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="25" />
-          <folding>
-            <element signature="e#2991#2992#0" expanded="true" />
-            <element signature="e#3041#3042#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question42.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="42" />
-          <folding>
-            <element signature="e#48#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/PolygonalUtil.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question45.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question44.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question45.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#48#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question46.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question46.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <element signature="e#48#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question47.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/training/exampleTwo/Bookcase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="115" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/models/CardDef.kt" />
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question0.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="49" column="64" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question47.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <element signature="e#48#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/generated/_Strings.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="436" column="16" lean-forward="true" selection-start-line="436" selection-start-column="16" selection-end-line="436" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/collections/ArraysJVM.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question48.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="68" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="68" />
-          <folding>
-            <element signature="e#48#120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question48.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/collections/Maps.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="399" column="39" selection-start-line="399" selection-start-column="39" selection-end-line="399" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/generated/_Arrays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="4790" column="21" selection-start-line="4790" selection-start-column="21" selection-end-line="4790" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/generated/_Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="2194" column="27" selection-start-line="2194" selection-start-column="27" selection-end-line="2194" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question49.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="14" />
-          <folding>
-            <element signature="e#48#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question49.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/Utils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question50.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#48#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question50.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/models/WeaponRaw.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/magicitemstuff/ClassBuilder.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-          <folding>
-            <element signature="n#!!block;n#getEnchantmentData#0;n#!!block;n#Companion#0;n#!!block;n#ClassBuilder#0" />
-            <element signature="n#!!block;n#getArmorData#0;n#!!block;n#Companion#0;n#!!block;n#ClassBuilder#0" />
-            <element signature="n#!!block;n#getWeaponData#0;n#!!block;n#Companion#0;n#!!block;n#ClassBuilder#0" />
-            <element signature="n#!!block;n#getSpellData#0;n#!!block;n#Companion#0;n#!!block;n#ClassBuilder#0" />
-            <element signature="n#!!block;n#buildClass#0;n#!!block;n#Companion#0;n#!!block;n#ClassBuilder#0" />
-            <element signature="n#!!block;n#convertJsonKey#0;n#!!block;n#Companion#0;n#!!block;n#ClassBuilder#0" />
-            <element signature="n#!!block;n#convertJsonElement#0;n#!!block;n#Companion#0;n#!!block;n#ClassBuilder#0" />
-            <element signature="n#!!block;n#convertToArmorClass#0;n#!!block;n#Companion#0;n#!!block;n#ClassBuilder#0" />
-            <element signature="n#!!block;n#convertToEnchantmentClass#0;n#!!block;n#Companion#0;n#!!block;n#ClassBuilder#0" />
-            <element signature="n#!!block;n#convertToWeaponRawClass#0;n#!!block;n#Companion#0;n#!!block;n#ClassBuilder#0" />
-            <element signature="n#!!block;n#convertToSpellClass#0;n#!!block;n#Companion#0;n#!!block;n#ClassBuilder#0" />
-            <element signature="n#!!block;n#createJsonFiles#0;n#!!block;n#Companion#0;n#!!block;n#ClassBuilder#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/models/Armor.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/models/Enchantment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/models/Spell.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Arrays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="385" column="15" selection-start-line="385" selection-start-column="15" selection-end-line="385" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/math/BigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="2010" column="22" selection-start-line="2010" selection-start-column="22" selection-end-line="2010" selection-end-column="22" />
-          <folding>
-            <element signature="e#34202#34203#0" expanded="true" />
-            <element signature="e#34258#34259#0" expanded="true" />
-            <element signature="e#37141#37142#0" expanded="true" />
-            <element signature="e#37188#37189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="291" column="25" selection-start-line="291" selection-start-column="25" selection-end-line="291" selection-end-column="25" />
-          <folding>
-            <element signature="e#11119#11120#0" expanded="true" />
-            <element signature="e#11200#11201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/util/BigIntegers.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="113" column="22" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/tools/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11016">
-          <caret line="659" column="25" selection-start-line="659" selection-start-column="25" selection-end-line="659" selection-end-column="25" />
-          <folding>
-            <element signature="e#10286#10287#0" expanded="true" />
-            <element signature="e#10342#10343#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/HexUtils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/Stopwatch.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="1322" column="36" selection-start-line="1322" selection-start-column="36" selection-end-line="1322" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/math/BigInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41493">
-          <caret line="122" column="13" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
-          <folding>
-            <element signature="e#40429#40430#0" expanded="true" />
-            <element signature="e#40519#40520#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/text/StringsJVM.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="221" column="18" selection-start-line="221" selection-start-column="18" selection-end-line="221" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/TypeAliases.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Primitives.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="403" column="4" lean-forward="true" selection-start-line="403" selection-start-column="4" selection-end-line="407" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/Root.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question51.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#48#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/kRoot.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/MyToolbox.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="337" column="26" selection-start-line="337" selection-start-column="26" selection-end-line="337" selection-end-column="26" />
-          <folding>
-            <element signature="e#44#179#0" expanded="true" />
-            <element signature="n#!!block;n#Tools#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#TextToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#isValidInteger#0;n#!!block;n#Tools#0;n#!!block;n#TextToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#CollectionToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#HexToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#byteArrayToHexString#0;n#!!block;n#Tools#0;n#!!block;n#HexToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#hexStringToByteArray#0;n#!!block;n#Tools#0;n#!!block;n#HexToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#PermutationToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#PermutationWorker#0;n#!!block;n#PermutationToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#getFactors#0;n#!!block;n#Tools#0;n#!!block;n#NumberToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#isPrime#0;n#!!block;n#Tools#0;n#!!block;n#NumberToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#getNthPrime#0;n#!!block;n#Tools#0;n#!!block;n#NumberToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#getNextPrime#0;n#!!block;n#Tools#0;n#!!block;n#NumberToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#isEven#0;n#!!block;n#Tools#0;n#!!block;n#NumberToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#isOdd#0;n#!!block;n#Tools#0;n#!!block;n#NumberToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#sumEachDigit#0;n#!!block;n#Tools#0;n#!!block;n#NumberToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#Base#0;n#!!block;n#NumberToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#getTriangleOrigin#0;n#!!block;n#Tools#0;n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#isTriangle#0;n#!!block;n#Tools#0;n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#getPentagonal#0;n#!!block;n#Tools#0;n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#getPentagonalOrigin#0;n#!!block;n#Tools#0;n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#isPentagonal#0;n#!!block;n#Tools#0;n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#getHexagonalNumber#0;n#!!block;n#Tools#0;n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#getHexagonalOrigin#0;n#!!block;n#Tools#0;n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#isHexagonal#0;n#!!block;n#Tools#0;n#!!block;n#PolygonalToolBox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#DateTimeToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#MathToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#generateSphericalPoints#0;n#!!block;n#Tools#0;n#!!block;n#MathToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#NX#0;n#!!block;n#Tools#0;n#!!block;n#MathToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#sphericalCoordinate#0;n#!!block;n#Tools#0;n#!!block;n#MathToolbox#0;n#!!block;n#MyToolbox#0" />
-            <element signature="n#!!block;n#LengthToolBox#0;n#!!block;n#MyToolbox#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/java/questions/Question51.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question0.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

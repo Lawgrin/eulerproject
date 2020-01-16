@@ -245,9 +245,9 @@ class MyToolbox {
         companion object Tools {
 
             fun getFactors(number: Long): Array<Long> {
-                var factor: Long = 1
+                var factor = 1L
                 var endPoint = number
-                val factors = arrayListOf<Long>()
+                val factors = hashSetOf<Long>()
 
                 while (factor < endPoint) {
                     if (!factors.contains(factor)) {
@@ -258,6 +258,28 @@ class MyToolbox {
                         }
                     }
                     factor++
+                }
+
+                return factors.toTypedArray()
+            }
+
+            fun getBigFactors(number: BigInteger): Array<BigInteger> {
+                val one = BigInteger.ONE
+                var factor = one
+                var endPoint = number
+                val factors = hashSetOf<BigInteger>()
+
+                while (factor.compareTo(endPoint) == -1) {
+                    if (!factors.contains(factor)) {
+                        val data = number.divideAndRemainder(factor)
+                        if (data[1] == BigInteger.ZERO) {
+                            factors.add(factor)
+                            endPoint = data[0]
+                            factors.add(endPoint)
+                        }
+                    }
+
+                    factor = factor.add(one)
                 }
 
                 return factors.toTypedArray()
@@ -332,6 +354,27 @@ class MyToolbox {
                     tmp = tmp.div(10)
                 }
                 return finalSum
+            }
+
+            fun isSquare(number: Float): Boolean {
+
+                var check = 1f
+                var ans = check.times(check)
+                while (ans < number) {
+                    check = check.plus(1f)
+                    ans = check.times(check)
+                }
+
+                return ans == number
+            }
+
+            fun getFactorial(number: BigInteger): BigInteger {
+                return if (number <= BigInteger.ONE) {
+                    BigInteger.ONE
+                } else {
+                    val tmp = getFactorial(number.minus(BigInteger.ONE))
+                    number.times(tmp)
+                }
             }
         }
 
@@ -532,15 +575,9 @@ class MyToolbox {
                 }
             }
 
-            fun convertTo(value: Double, from: TimeUnit, to: TimeUnit): Double {
-                val valueToConvert = from.getDurationInSeconds(value)
-                val conversionDenominator = to.getDurationInSeconds(1.0)
-
-                return valueToConvert / conversionDenominator
-            }
-
-            fun getHumanReadableDuration(duration: Double, timeUnit: TimeUnit): String {
-                return TimeUnit.Day.writeOut(convertTo(duration, timeUnit, TimeUnit.Day)).trim()
+            fun getHumanReadableDuration(duration: Double, inTimeUnit: TimeUnit = TimeUnit.Nanosecond, outTimeUnit: TimeUnit = TimeUnit.Day): String {
+                return outTimeUnit.writeOut(outTimeUnit.convertTo(duration, inTimeUnit))
+                        .trim()
             }
         }
 
@@ -554,6 +591,13 @@ class MyToolbox {
             Hour("hr", 3600.0, Minute),
             Day("d", 86400.0, Hour);
 
+            fun convertTo(value: Double, from: TimeUnit): Double {
+                val valueToConvert = from.getDurationInSeconds(value)
+                val conversionDenominator = this.getDurationInSeconds(1.0)
+
+                return valueToConvert / conversionDenominator
+            }
+
             fun getDurationInSeconds(value: Double): Double {
                 return value.times(this.durationInSeconds)
             }
@@ -561,23 +605,27 @@ class MyToolbox {
             fun writeOut(value: Double): String {
                 val retStr = StringBuilder("")
 
-                val wholeValue = Math.floor(value).toInt()
+                val wholeValue = Math.floor(value)
+                        .toInt()
                 val leftOver = value.minus(wholeValue)
 
                 if (wholeValue > 0) {
-                    retStr.append(wholeValue).append(this.si)
+                    retStr.append(wholeValue)
+                            .append(this.si)
                 }
                 if (this.oneStepDown != null) {
                     if (leftOver > 0) {
-                        val passOn = convertTo(leftOver, this, this.oneStepDown)
+                        val passOn = this.oneStepDown.convertTo(leftOver, this)
                         val strToAdd = this.oneStepDown.writeOut(passOn)
-                        if (strToAdd != "0${this.oneStepDown.si}") {
-                            retStr.append(" ").append(strToAdd)
+                        if (!strToAdd.startsWith("0")) {
+                            retStr.append(" ")
+                                    .append(strToAdd)
                         }
                     }
                 }
                 if (retStr.isEmpty()) {
-                    retStr.append("0").append(this.si)
+                    retStr.append("0")
+                            .append(this.si)
                 }
 
                 return retStr.toString()

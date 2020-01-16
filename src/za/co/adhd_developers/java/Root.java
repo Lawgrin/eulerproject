@@ -37,7 +37,7 @@ public class Root {
                     long end = System.nanoTime();
                     long timeTaken = (end - start);
                     ((Question) question).printAnswer();
-                    String timeTakenStr = MyToolbox.DateTimeToolbox.Tools.getHumanReadableDuration(timeTaken, MyToolbox.DateTimeToolbox.TimeUnit.Nanosecond);
+                    String timeTakenStr = MyToolbox.DateTimeToolbox.Tools.getHumanReadableDuration(timeTaken, MyToolbox.DateTimeToolbox.TimeUnit.Nanosecond, MyToolbox.DateTimeToolbox.TimeUnit.Nanosecond);
                     System.out.println("Time taken: " + timeTakenStr);
                     results.put("Question " + String.valueOf(questNum), timeTaken);
                 }
