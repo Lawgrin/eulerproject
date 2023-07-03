@@ -9,13 +9,13 @@ import java.util.Hashtable;
  * Created by Grant on 2017/07/28.
  */
 public class Root {
-    static int[] questions = {51};
+    static int[] questions = {};
     static int start = 1;
-    static int end = 5;
+    static int end = 64;
 
     public static void main(String[] args) {
         Hashtable<String, Long> results = new Hashtable<>();
-        if (questions.length <= 0) {
+        if (questions.length == 0) {
             questions = new int[(end - start) + 1];
             int index = 0;
             for (int i = start; i <= end; i++) {
@@ -49,7 +49,7 @@ public class Root {
         System.out.println("\n\n");
         for (int i = 1; i <= end; i++) {
             if (results.containsKey("Question " + i)) {
-                System.out.println("Question " + i + "\t" + results.get("Question " + i));
+                System.out.println(i + "\t" + results.get("Question " + i));
             }
         }
     }

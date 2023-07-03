@@ -3,15 +3,14 @@
   <component name="AnalysisUIOptions">
     <option name="ANALYZE_TEST_SOURCES" value="false" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0fe2bf7b-bf8c-45c0-9b32-459b16137687" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/java/Root.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/java/Root.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/kRoot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/kRoot.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question0.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question0.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question30.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/questions/Question30.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/MyToolbox.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/MyToolbox.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/Stopwatch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/za/co/adhd_developers/kotlin/tools/Stopwatch.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +24,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="EulerProject" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,23 +76,25 @@
   <component name="ProjectId" id="1VsrUFJjndpYJH05jHPh4x67jnQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="utils&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/tools/Utils.java&#10;ut&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/kotlin/tools/Utils.kt&#10;question26&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question26.java&#10;question24&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question24&#10;quest&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/kotlin/questions/Question0.kt&#10;ques&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question0.java&#10;question0&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/kotlin/questions/Question0.kt&#10;q&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question0.java&#10;root&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/Root.java&#10;question2&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question26.java&#10;question64&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question64&#10;Question0&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/kotlin/questions/Question0.kt&#10;kro&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/kotlin/kRoot.kt&#10;question0.ja&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question0.java&#10;question22&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question22&#10;Question44&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question44&#10;Question43&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question43&#10;Question42&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question42&#10;Question41&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question41&#10;question40&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question40&#10;Question39&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question39&#10;Question38&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question38&#10;Question37&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question37&#10;question36&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question36&#10;Question35&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question35&#10;question34&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question34&#10;quest33&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question33&#10;question&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question0.java&#10;question0.j&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question30.java&#10;Question32&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question32&#10;Question30&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question30.java&#10;Question31&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question31&#10;Question29&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question29&#10;Question28&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question28.java&#10;Question24&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question24&#10;Question23&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question23&#10;Question22&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question22&#10;Question21&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question21&#10;Question20&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question20&#10;Question19&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question19&#10;Question18&#9;FILE&#9;file:///Users/grantpienaar/Documents/GitHub/eulerproject/src/za/co/adhd_developers/java/questions/Question18.java&#10;Question17&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question17&#10;Question16&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question16&#10;question15&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question15&#10;question14&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question14&#10;question13&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question13&#10;question12&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question12&#10;question11&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question11&#10;question10&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question10&#10;question9&#9;PSI&#9;JAVA://za.co.adhd_developers.java.questions.Question9" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/grantpienaar/Documents/GitHub/eulerproject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.25977013",
+    "settings.editor.selected.configurable": "project.kotlinCompiler",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="za.co.adhd_developers.kotlin.tools" />
@@ -108,18 +106,26 @@
       <recent name="$PROJECT_DIR$/src/externalResources" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.za.co.adhd_developers.kotlin.KRootKt">
+  <component name="RunManager" selected="Application.Root">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+    <configuration name="Root" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="za.co.adhd_developers.java.Root" />
+      <module name="eulerproject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.adhd_developers.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -134,62 +140,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="za.co.adhd_developers.kotlin.KRootKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="eulerproject" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration name="za.co.adhd_developers.kotlin.KRootKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="za.co.adhd_developers.kotlin.KRootKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="za.co.adhd_developers.kotlin.TheQuestion6Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="eulerproject" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="za.co.adhd_developers.kotlin.TheQuestion6Kt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration name="za.co.adhd_developers.kotlin.TheQuestion6Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="za.co.adhd_developers.kotlin.TheQuestion6Kt" />
+      <module name="eulerproject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,12 +169,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.Root" />
       <item itemvalue="Kotlin.za.co.adhd_developers.kotlin.KRootKt" />
       <item itemvalue="Kotlin.za.co.adhd_developers.kotlin.TheQuestion6Kt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Root" />
         <item itemvalue="Kotlin.za.co.adhd_developers.kotlin.KRootKt" />
         <item itemvalue="Kotlin.za.co.adhd_developers.kotlin.TheQuestion6Kt" />
       </list>
@@ -226,6 +203,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -236,8 +214,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504107158178</updated>
+      <workItem from="1688413126116" duration="1647000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -248,61 +230,6 @@
         <option value="1" />
       </list>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2334" y="-153" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578055190842">
-      <screen x="1920" y="-328" width="1920" height="1040" />
-    </state>
-    <state x="2334" y="-153" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1578055190842" />
-    <state x="2668" y="-107" key="#com.intellij.ide.util.MemberChooser" timestamp="1578055799539">
-      <screen x="1920" y="-328" width="1920" height="1040" />
-    </state>
-    <state x="2668" y="-107" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1578055799539" />
-    <state x="2560" y="-80" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578052767588">
-      <screen x="1920" y="-328" width="1920" height="1040" />
-    </state>
-    <state x="2560" y="-80" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1578052767588" />
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1579173443820">
-      <screen x="1920" y="-328" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-328.1920.1040@0.0.1920.1040" timestamp="1578310463018" />
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1579173443820" />
-    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1579173443820">
-      <screen x="1920" y="-328" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-328.1920.1040@0.0.1920.1040" timestamp="1578310463018" />
-    <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1579173443820" />
-    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1579173443819">
-      <screen x="1920" y="-328" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-328.1920.1040@0.0.1920.1040" timestamp="1578310463017" />
-    <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1579173443819" />
-    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1579173443820">
-      <screen x="1920" y="-328" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-328.1920.1040@0.0.1920.1040" timestamp="1578310463018" />
-    <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1579173443820" />
-    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1578070209116">
-      <screen x="1920" y="-328" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1578070209116" />
-    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1578070209116">
-      <screen x="1920" y="-328" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1578070209116" />
-    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1578070209116">
-      <screen x="1920" y="-328" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1578070209116" />
-    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1578070209116">
-      <screen x="1920" y="-328" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1578070209116" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578302875187">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-328.1920.1040@0.0.1920.1040" timestamp="1578302875187" />
-    <state x="2543" y="-103" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-328.1920.1040@1920.-328.1920.1040" timestamp="1578053836499" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
